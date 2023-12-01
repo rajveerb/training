@@ -11,6 +11,5 @@ RUN apt-get install -y vim
 
 RUN pip install --upgrade pip
 RUN pip install --disable-pip-version-check -r requirements.txt
-RUN cd .. && rm -rf unet3d
 
 #RUN pip uninstall -y apex; pip uninstall -y apex; git clone --branch seryilmaz/fused_dropout_softmax  https://github.com/seryilmaz/apex.git; cd apex;  pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" --global-option="--xentropy" --global-option="--deprecated_fused_adam" --global-option="--deprecated_fused_lamb" --global-option="--fast_multihead_attn" .
