@@ -15,7 +15,7 @@ git submodule update --init --recursive
 # Below command can cause issues
 export CMAKE_PREFIX_PATH=$(dirname $(dirname $(which conda)))
 echo "CMAKE_PREFIX_PATH is set to $CMAKE_PREFIX_PATH, it should be set to dir which contains the conda installation"  
-apt install g++
+apt install -y g++
 python setup.py develop
 # Check if installed correctly
 conda list
@@ -30,5 +30,6 @@ cd ../unet3d/
 pip install --disable-pip-version-check -r requirements.txt
 conda install -c conda-forge libjpeg-turbo
 apt-get install libjpeg9
+pip uninstall torch 
 bash run_and_time.sh 1
 bash run_and_time.sh 1 LOG
