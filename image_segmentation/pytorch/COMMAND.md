@@ -1,3 +1,5 @@
+```bash 
+
 bash run_and_time.sh 1
 conda create -n instrumentation_env python=3.8
 conda init bash
@@ -33,3 +35,4 @@ apt-get install libjpeg9
 pip uninstall torch 
 bash run_and_time.sh 1
 bash run_and_time.sh 1 LOG
+```
