@@ -407,3 +407,9 @@ _C.MLPERF = CN()
 # Accuracy targets for early termination
 _C.MLPERF.MIN_BBOX_MAP = 0.377
 _C.MLPERF.MIN_SEGM_MAP = 0.339
+
+# ---------------------------------------------------------------------------- #
+# rajveerb Insturmentation logic
+# ---------------------------------------------------------------------------- #
+_C.PREPROCESSING = CN()
+_C.PREPROCESSING.LOG_FILE_PATH = ""

@@ -67,7 +67,8 @@ class Resize(object):
 
         return (oh, ow)
 
-    def __call__(self, image, target):
+    def __call__(self, image_target):
+        image, target = image_target
         size = self.get_size(image.size)
         image = F.resize(image, size)
         target = target.resize(image.size)
@@ -78,7 +79,8 @@ class RandomHorizontalFlip(object):
     def __init__(self, prob=0.5):
         self.prob = prob
 
-    def __call__(self, image, target):
+    def __call__(self, image_target):
+        image, target = image_target
         if random.random() < self.prob:
             image = F.hflip(image)
             target = target.transpose(0)
@@ -86,7 +88,8 @@ class RandomHorizontalFlip(object):
 
 
 class ToTensor(object):
-    def __call__(self, image, target):
+    def __call__(self, image_target):
+        image, target = image_target
         return F.to_tensor(image), target
 
 
@@ -96,7 +99,8 @@ class Normalize(object):
         self.std = std
         self.to_bgr255 = to_bgr255
 
-    def __call__(self, image, target):
+    def __call__(self, image_target):
+        image, target = image_target
         if self.to_bgr255:
             image = image[[2, 1, 0]] * 255
         image = F.normalize(image, mean=self.mean, std=self.std)

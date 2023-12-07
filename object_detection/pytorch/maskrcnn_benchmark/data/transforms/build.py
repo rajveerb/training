@@ -13,6 +13,7 @@
 # limitations under the License.
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
 from . import transforms as T
+from torchvision.transforms import transforms
 
 
 def build_transforms(cfg, is_train=True):
@@ -30,12 +31,12 @@ def build_transforms(cfg, is_train=True):
         mean=cfg.INPUT.PIXEL_MEAN, std=cfg.INPUT.PIXEL_STD, to_bgr255=to_bgr255
     )
 
-    transform = T.Compose(
+    transform = transforms.Compose(
         [
             T.Resize(min_size, max_size),
             T.RandomHorizontalFlip(flip_prob),
             T.ToTensor(),
             normalize_transform,
-        ]
+        ], log_transform_elapsed_time = cfg.PREPROCESSING.LOG_FILE_PATH
     )
     return transform
