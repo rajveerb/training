@@ -9,24 +9,16 @@ RUN apt-get update -y \
                        libglib2.0-0=2.56.1-2ubuntu1 \
                        libsm6=2:1.2.2-1 \
                        libxext6=2:1.3.3-1 \
-                       libxrender-dev=1:0.9.10-1
+                       libxrender-dev=1:0.9.10-1 \
+                       vim \
+                       git
 
-RUN pip install ninja==1.8.2.post2 \
-                yacs==0.1.5 \
-                cython==0.29.5 \
-                matplotlib==3.0.2 \
-                opencv-python==4.0.0.21 \
-                mlperf_compliance==0.0.10 \
-                torchvision==0.2.2 \
-                pycocotools==2.0.2
-
-RUN pip install --no-cache-dir https://github.com/mlperf/logging/archive/9ea0afa.zip
+# Needs to be done to override the default (the issue has to be with pip and conda priority)
+RUN pip uninstall -y torch torchvision
 
 WORKDIR /workspace/object_detection
 COPY . .
-RUN cd pytorch \
- && rm -rf build/ \
- && python setup.py clean build develop --user
+RUN ["/bin/bash", "-c", "source  /workspace/object_detection/setup_env.sh &> build.log"]
 
 # For information purposes only, these are the versions of the packages which we've successfully used:
 # $ pip list

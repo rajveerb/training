@@ -1,0 +1,11 @@
+ninja
+yacs
+cython==0.29.5
+matplotlib
+opencv-python==4.1.2.30
+mlperf_compliance==0.0.10
+pycocotools==2.0.7
+Pillow==8.4.0
+tqdm==4.19.9
+numpy==1.23.0
+psutil
