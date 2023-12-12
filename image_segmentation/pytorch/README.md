@@ -44,8 +44,8 @@ arXiv preprint arXiv:1904.00445 (2019).
    
     To download the data please follow the instructions:
     ```bash
-    mkdir raw-data-dir
-    cd raw-data-dir
+    mkdir training/image_segmentation/raw-data-dir
+    cd training/image_segmentation/raw-data-dir
     git clone https://github.com/neheller/kits19
     cd kits19
     pip3 install -r requirements.txt
