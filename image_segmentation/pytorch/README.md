@@ -35,6 +35,7 @@ arXiv preprint arXiv:1904.00445 (2019).
     
     ```bash
     cd training/image_segmentation/pytorch
+    # below will take some time
     docker build -t unet3d .
     ```
 
@@ -44,14 +45,15 @@ arXiv preprint arXiv:1904.00445 (2019).
    
     To download the data please follow the instructions:
     ```bash
-    mkdir training/image_segmentation/raw-data-dir
-    cd training/image_segmentation/raw-data-dir
+    cd training/image_segmentation/
     git clone https://github.com/neheller/kits19
     cd kits19
     pip3 install -r requirements.txt
     python3 -m starter_code.get_imaging
+    mkdir data
+    mkdir results
     ```
-    This will download the original, non-interpolated data to `raw-data-dir/kits19/data`
+    This will download the original, non-interpolated data to `training/image_segmentation/kits19/data`
 
  
 2. Start an interactive session in the container to run preprocessing/training/inference.
@@ -62,9 +64,8 @@ arXiv preprint arXiv:1904.00445 (2019).
     - (optionally) for results (RESULTS-DIR)
     
     ```bash
-    mkdir data
-    mkdir results
-    docker run --ipc=host -it --rm --gpus all -v RAW-DATA-DIR:/raw_data -v PREPROCESSED-DATA-DIR:/data -v RESULTS-DIR:/results unet3d:latest /bin/bash
+    cd training/image_segmentation/
+    docker run --ipc=host -it --rm --gpus all -v kits19/data:/raw_data -v kits19/preprocessed_data:/data -v kits19/results:/results unet3d:latest /bin/bash
     ```
  
 3. Preprocess the dataset.

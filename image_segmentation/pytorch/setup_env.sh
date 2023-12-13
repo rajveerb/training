@@ -42,7 +42,6 @@ pushd /workspace/unet3d
 pip install --disable-pip-version-check -r requirements.txt
 
 # check custom_build.log if torch, torchvision and maskrcnn-benchmark installed correctly
-pip list | grep "torch" | grep "1.10" >> custom_build.log
-pip list | grep "torchvision" | grep "0.2.2" >> custom_build.log
-pip list | grep "maskrcnn-benchmark" >> custom_build.log
+pip list | grep "torch" | grep "2.0.1" >> custom_build.log 
+pip list | grep "torchvision" | grep "0.15.1a0" >> custom_build.log
 popd
