@@ -39,13 +39,6 @@ python setup.py install
 pip list
 popd
 
-pushd /workspace/
-cd ./object_detection/pytorch
-python setup.py clean build develop --user
-# Check if maskrcnn is installed
-pip list
-popd
-
 pushd /workspace/object_detection/
 pip install -r requirements.txt
 pip install --no-cache-dir https://github.com/mlperf/logging/archive/9ea0afa.zip
@@ -53,5 +46,4 @@ pip install --no-cache-dir https://github.com/mlperf/logging/archive/9ea0afa.zip
 # check custom_build.log if torch, torchvision and maskrcnn-benchmark installed correctly
 pip list | grep "torch" | grep "1.10" >> custom_build.log
 pip list | grep "torchvision" | grep "0.2.2" >> custom_build.log
-pip list | grep "maskrcnn-benchmark" >> custom_build.log
 popd

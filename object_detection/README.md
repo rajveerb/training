@@ -9,16 +9,15 @@ Object detection and segmentation. Metrics are mask and box mAP.
 ```
 mkdir -p mlperf
 cd mlperf
-git clone https://github.com/mlperf/training.git
+git clone https://github.com/rajveerb/training.git
 ```
-2. Install CUDA and Docker
-```
-source training/install_cuda_docker.sh
-```
+2. Assumes CUDA 11.8, CuDNN 8 and Docker is installed with nvidia support
+
 3. Build the docker image for the object detection task
 ```
 cd training/object_detection/
-nvidia-docker build . -t mlperf/object_detection
+# below will take a lot of time
+docker build . -t mlperf/object_detection
 ```
 
 ### Steps to download data
@@ -29,8 +28,20 @@ source download_dataset.sh
 
 ### Steps to run benchmark.
 ```
-nvidia-docker run -v .:/workspace -t -i --rm --ipc=host mlperf/object_detection \
-    "cd mlperf/training/object_detection && ./run_and_time.sh"
+docker run -ti --gpus all --rm --ipc=host  -v ./pytorch/datasets:/workspace/object_detection/pytorch/datasets mlperf/object_detection
+
+# activate conda env
+conda activate instrumentation_env
+# below command to check if environment is active
+conda info | grep "active environment"
+
+cd /workspace/object_detection/pytorch
+python setup.py clean build develop --user
+# Check if maskrcnn is installed
+pip list | grep "maskrcnn-benchmark"
+
+cd /workspace/object_detection
+./run_and_time.sh
 ```
 
 # 3. Dataset/Environment
