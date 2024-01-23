@@ -48,6 +48,38 @@ def has_valid_annotation(anno):
         return True
     return False
 
+class Load():
+    def __init__(self,coco_dataset_obj=None):
+        self.coco_dataset_obj = coco_dataset_obj
+
+    def __call__(self,idx):
+        img, anno = super(COCODataset, self.coco_dataset_obj).__getitem__(idx)
+
+        # filter crowd annotations
+        # TODO might be better to add an extra field
+        anno = [obj for obj in anno if obj["iscrowd"] == 0]
+
+        boxes = [obj["bbox"] for obj in anno]
+        boxes = torch.as_tensor(boxes).reshape(-1, 4)  # guard against no boxes
+        target = BoxList(boxes, img.size, mode="xywh").convert("xyxy")
+
+        classes = [obj["category_id"] for obj in anno]
+        classes = [self.coco_dataset_obj.json_category_id_to_contiguous_id[c] for c in classes]
+        classes = torch.tensor(classes)
+        target.add_field("labels", classes)
+
+        masks = [obj["segmentation"] for obj in anno]
+        masks = SegmentationMask(masks, img.size)
+        target.add_field("masks", masks)
+
+        if anno and "keypoints" in anno[0]:
+            keypoints = [obj["keypoints"] for obj in anno]
+            keypoints = PersonKeypoints(keypoints, img.size)
+            target.add_field("keypoints", keypoints)
+
+        target = target.clip_to_image(remove_empty=True)
+        img_target = img, target
+        return img_target
 
 class COCODataset(torchvision.datasets.coco.CocoDetection):
     def __init__(
@@ -76,38 +108,11 @@ class COCODataset(torchvision.datasets.coco.CocoDetection):
         self.id_to_img_map = {k: v for k, v in enumerate(self.ids)}
         self._transforms = transforms
         self.log_file = log_file
+        self._transforms.transforms = [Load(coco_dataset_obj=self)] + self._transforms.transforms
         
 
     def __getitem__(self, idx):
-        img, anno = super(COCODataset, self).__getitem__(idx)
-
-        # filter crowd annotations
-        # TODO might be better to add an extra field
-        anno = [obj for obj in anno if obj["iscrowd"] == 0]
-
-        boxes = [obj["bbox"] for obj in anno]
-        boxes = torch.as_tensor(boxes).reshape(-1, 4)  # guard against no boxes
-        target = BoxList(boxes, img.size, mode="xywh").convert("xyxy")
-
-        classes = [obj["category_id"] for obj in anno]
-        classes = [self.json_category_id_to_contiguous_id[c] for c in classes]
-        classes = torch.tensor(classes)
-        target.add_field("labels", classes)
-
-        masks = [obj["segmentation"] for obj in anno]
-        masks = SegmentationMask(masks, img.size)
-        target.add_field("masks", masks)
-
-        if anno and "keypoints" in anno[0]:
-            keypoints = [obj["keypoints"] for obj in anno]
-            keypoints = PersonKeypoints(keypoints, img.size)
-            target.add_field("keypoints", keypoints)
-
-        target = target.clip_to_image(remove_empty=True)
-
-        if self._transforms is not None:
-            img_target = img, target
-            img, target = self._transforms(img_target)
+        img, target = self._transforms(idx)
         return img, target, idx
 
     def get_img_info(self, index):
