@@ -29,7 +29,6 @@ popd
 
 # Build torchvision v0.2.2
 pushd /workspace
-cd ..
 git clone https://github.com/rajveerb/vision.git
 cd ./vision/
 git checkout remotes/origin/v0.15_instrumentation
