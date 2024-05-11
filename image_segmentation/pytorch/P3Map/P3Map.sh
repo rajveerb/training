@@ -2,8 +2,7 @@
 
 program_path_prefix="./P3Map"
 python_path=$(which python)
-programs=("LoadImage.py")
-# "RandBalancedCrop.py" "RandFlip.py" "Cast.py" "RandomBrightnessAugmentation.py" "GaussianNoise.py")
+programs=("LoadImage.py" "RandBalancedCrop.py" "RandFlip.py" "Cast.py" "RandomBrightnessAugmentation.py" "GaussianNoise.py")
 vtune_record="vtune -collect hotspots -start-paused"
 vtune_report="vtune -report hotspots"
 vtune_result_dir="./P3Map/tmp_vtune_result_dir"
@@ -31,7 +30,7 @@ done
 
 
 # Running multiple times and taking "AND" operation of the reported function
-total_runs=1
+total_runs=20
 
 for run in $(seq 1 $total_runs)
 do
