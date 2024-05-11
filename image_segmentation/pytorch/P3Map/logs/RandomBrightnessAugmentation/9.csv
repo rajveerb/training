@@ -1,0 +1,5 @@
+Function,CPU Time,CPU Time:Effective Time,CPU Time:Spin Time,CPU Time:Overhead Time,Module,Function (Full),Source File,Start Address
+DOUBLE_multiply_AVX2,0.172458,0.172458,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,DOUBLE_multiply_AVX2,[Unknown],0x9a960
+_aligned_contig_cast_double_to_float,0.130802,0.130802,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,_aligned_contig_cast_double_to_float,[Unknown],0x258360
+_aligned_contig_cast_float_to_double,0.031604,0.031604,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,_aligned_contig_cast_float_to_double,[Unknown],0x2560f0
+munmap,0.009198,0.009198,0.0,0.0,libc.so.6,munmap,syscall-template.S,0x118b90
