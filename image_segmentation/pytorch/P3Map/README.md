@@ -18,12 +18,18 @@ Note: Below configurations from parser defaults values of the benchmark for `Ran
 input_shape = [128, 128, 128]
 oversampling = 0.4
 config = {"patch_size": input_shape, "oversampling": oversampling,}
+# Since, some operations are performed on the basis of a probability, but for the sake of mapping we set it to 1. 
 ```
 
 ## Steps to get mapping via P3Map
 
 ```bash
 conda activate instrumentation_env
+# Follow instructions in image_segmentation/itt-python/README.md for installing
+# Be outside P3Map directory and run below command
+bash P3Map/P3Map.sh
+# Run the `image_segmentation/pytorch/P3Map/logsToMapping.ipynb`
+# Output mapping is stored in `image_segmentation/pytorch/P3Map/mapping_funcs.json`
 ```
 
 ## Finding large element from the `kits19` dataset
