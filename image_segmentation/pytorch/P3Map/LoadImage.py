@@ -17,13 +17,13 @@ class LoadImage:
         data = {"image": np.load(data['image']), "label": np.load(data['label'])}
         return data
 
-for i,image_file in enumerate(instances):
+for i,data in enumerate(instances):
     # sleep for 1 sec
     loader = LoadImage()
     time.sleep(1)
-    # convert to RGB like torch's pil_loader
+    # Load data stored in npy format
     if i == 4:
         itt.resume()
-    data_ = loader(data)
+    data = loader(data)
     if i == 4:
         itt.detach()
