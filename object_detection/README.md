@@ -11,7 +11,7 @@ mkdir -p mlperf
 cd mlperf
 git clone https://github.com/rajveerb/training.git
 ```
-2. Assumes CUDA 11.8, CuDNN 8 and Docker is installed with nvidia support
+2. Assumes CUDA 11.3, CuDNN 8 and Docker is installed with nvidia support
 
 3. Build the docker image for the object detection task
 ```
