@@ -1,0 +1,71 @@
+:::MLLOG {"namespace": "", "time_ms": 1715545756943, "event_type": "INTERVAL_START", "key": "init_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 220}}
+:::MLLOG {"namespace": "", "time_ms": 1715545756996, "event_type": "POINT_IN_TIME", "key": "seed", "value": 3411568985, "metadata": {"file": "tools/train_mlperf.py", "lineno": 267}}
+:::MLLOG {"namespace": "", "time_ms": 1715545759848, "event_type": "POINT_IN_TIME", "key": "global_batch_size", "value": 2, "metadata": {"file": "tools/train_mlperf.py", "lineno": 120}}
+:::MLLOG {"namespace": "", "time_ms": 1715545759848, "event_type": "POINT_IN_TIME", "key": "num_image_candidates", "value": 2000, "metadata": {"file": "tools/train_mlperf.py", "lineno": 121}}
+:::MLLOG {"namespace": "", "time_ms": 1715545762173, "event_type": "POINT_IN_TIME", "key": "opt_name", "value": "sgd_with_momentum", "metadata": {"file": "tools/train_mlperf.py", "lineno": 129}}
+:::MLLOG {"namespace": "", "time_ms": 1715545762173, "event_type": "POINT_IN_TIME", "key": "opt_base_learning_rate", "value": 0.0025, "metadata": {"file": "tools/train_mlperf.py", "lineno": 130}}
+:::MLLOG {"namespace": "", "time_ms": 1715545762173, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_warmup_steps", "value": 500, "metadata": {"file": "tools/train_mlperf.py", "lineno": 131}}
+:::MLLOG {"namespace": "", "time_ms": 1715545762174, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_warmup_factor", "value": 0.3333333333333333, "metadata": {"file": "tools/train_mlperf.py", "lineno": 132}}
+:::MLLOG {"namespace": "", "time_ms": 1715545762174, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_decay_factor", "value": 0.1, "metadata": {"file": "tools/train_mlperf.py", "lineno": 133}}
+:::MLLOG {"namespace": "", "time_ms": 1715545762174, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_decay_steps", "value": [480000, 640000], "metadata": {"file": "tools/train_mlperf.py", "lineno": 134}}
+:::MLLOG {"namespace": "", "time_ms": 1715545762174, "event_type": "POINT_IN_TIME", "key": "min_image_size", "value": 800, "metadata": {"file": "tools/train_mlperf.py", "lineno": 135}}
+:::MLLOG {"namespace": "", "time_ms": 1715545762174, "event_type": "POINT_IN_TIME", "key": "max_image_size", "value": 1333, "metadata": {"file": "tools/train_mlperf.py", "lineno": 136}}
+:::MLLOG {"namespace": "", "time_ms": 1715545762323, "event_type": "INTERVAL_END", "key": "init_stop", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 161}}
+:::MLLOG {"namespace": "", "time_ms": 1715545762323, "event_type": "INTERVAL_START", "key": "run_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 162}}
+:::MLLOG {"namespace": "", "time_ms": 1715545779680, "event_type": "POINT_IN_TIME", "key": "train_samples", "value": 720000, "metadata": {"file": "tools/train_mlperf.py", "lineno": 174}}
+:::MLLOG {"namespace": "", "time_ms": 1715545780627, "event_type": "INTERVAL_START", "key": "block_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 102, "first_epoch_num": 1, "epoch_count": 1}}
+:::MLLOG {"namespace": "", "time_ms": 1715545780628, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 103, "epoch_num": 1}}
+:::MLLOG {"namespace": "", "time_ms": 1715553590101, "event_type": "INTERVAL_START", "key": "init_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 220}}
+:::MLLOG {"namespace": "", "time_ms": 1715553590152, "event_type": "POINT_IN_TIME", "key": "seed", "value": 2506871501, "metadata": {"file": "tools/train_mlperf.py", "lineno": 267}}
+:::MLLOG {"namespace": "", "time_ms": 1715553593056, "event_type": "POINT_IN_TIME", "key": "global_batch_size", "value": 2, "metadata": {"file": "tools/train_mlperf.py", "lineno": 120}}
+:::MLLOG {"namespace": "", "time_ms": 1715553593057, "event_type": "POINT_IN_TIME", "key": "num_image_candidates", "value": 2000, "metadata": {"file": "tools/train_mlperf.py", "lineno": 121}}
+:::MLLOG {"namespace": "", "time_ms": 1715553595338, "event_type": "POINT_IN_TIME", "key": "opt_name", "value": "sgd_with_momentum", "metadata": {"file": "tools/train_mlperf.py", "lineno": 129}}
+:::MLLOG {"namespace": "", "time_ms": 1715553595339, "event_type": "POINT_IN_TIME", "key": "opt_base_learning_rate", "value": 0.0025, "metadata": {"file": "tools/train_mlperf.py", "lineno": 130}}
+:::MLLOG {"namespace": "", "time_ms": 1715553595340, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_warmup_steps", "value": 500, "metadata": {"file": "tools/train_mlperf.py", "lineno": 131}}
+:::MLLOG {"namespace": "", "time_ms": 1715553595340, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_warmup_factor", "value": 0.3333333333333333, "metadata": {"file": "tools/train_mlperf.py", "lineno": 132}}
+:::MLLOG {"namespace": "", "time_ms": 1715553595340, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_decay_factor", "value": 0.1, "metadata": {"file": "tools/train_mlperf.py", "lineno": 133}}
+:::MLLOG {"namespace": "", "time_ms": 1715553595340, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_decay_steps", "value": [480000, 640000], "metadata": {"file": "tools/train_mlperf.py", "lineno": 134}}
+:::MLLOG {"namespace": "", "time_ms": 1715553595340, "event_type": "POINT_IN_TIME", "key": "min_image_size", "value": 800, "metadata": {"file": "tools/train_mlperf.py", "lineno": 135}}
+:::MLLOG {"namespace": "", "time_ms": 1715553595340, "event_type": "POINT_IN_TIME", "key": "max_image_size", "value": 1333, "metadata": {"file": "tools/train_mlperf.py", "lineno": 136}}
+:::MLLOG {"namespace": "", "time_ms": 1715553595485, "event_type": "INTERVAL_END", "key": "init_stop", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 161}}
+:::MLLOG {"namespace": "", "time_ms": 1715553595486, "event_type": "INTERVAL_START", "key": "run_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 162}}
+:::MLLOG {"namespace": "", "time_ms": 1715553611094, "event_type": "POINT_IN_TIME", "key": "train_samples", "value": 720000, "metadata": {"file": "tools/train_mlperf.py", "lineno": 174}}
+:::MLLOG {"namespace": "", "time_ms": 1715553611912, "event_type": "INTERVAL_START", "key": "block_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 102, "first_epoch_num": 1, "epoch_count": 1}}
+:::MLLOG {"namespace": "", "time_ms": 1715553611913, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 103, "epoch_num": 1}}
+:::MLLOG {"namespace": "", "time_ms": 1715553614994, "event_type": "INTERVAL_END", "key": "run_stop", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 308, "status": "aborted"}}
+:::MLLOG {"namespace": "", "time_ms": 1715553639304, "event_type": "INTERVAL_START", "key": "init_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 220}}
+:::MLLOG {"namespace": "", "time_ms": 1715553639355, "event_type": "POINT_IN_TIME", "key": "seed", "value": 385028214, "metadata": {"file": "tools/train_mlperf.py", "lineno": 267}}
+:::MLLOG {"namespace": "", "time_ms": 1715553641942, "event_type": "POINT_IN_TIME", "key": "global_batch_size", "value": 2, "metadata": {"file": "tools/train_mlperf.py", "lineno": 120}}
+:::MLLOG {"namespace": "", "time_ms": 1715553641943, "event_type": "POINT_IN_TIME", "key": "num_image_candidates", "value": 2000, "metadata": {"file": "tools/train_mlperf.py", "lineno": 121}}
+:::MLLOG {"namespace": "", "time_ms": 1715553644207, "event_type": "POINT_IN_TIME", "key": "opt_name", "value": "sgd_with_momentum", "metadata": {"file": "tools/train_mlperf.py", "lineno": 129}}
+:::MLLOG {"namespace": "", "time_ms": 1715553644208, "event_type": "POINT_IN_TIME", "key": "opt_base_learning_rate", "value": 0.0025, "metadata": {"file": "tools/train_mlperf.py", "lineno": 130}}
+:::MLLOG {"namespace": "", "time_ms": 1715553644208, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_warmup_steps", "value": 500, "metadata": {"file": "tools/train_mlperf.py", "lineno": 131}}
+:::MLLOG {"namespace": "", "time_ms": 1715553644208, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_warmup_factor", "value": 0.3333333333333333, "metadata": {"file": "tools/train_mlperf.py", "lineno": 132}}
+:::MLLOG {"namespace": "", "time_ms": 1715553644208, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_decay_factor", "value": 0.1, "metadata": {"file": "tools/train_mlperf.py", "lineno": 133}}
+:::MLLOG {"namespace": "", "time_ms": 1715553644208, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_decay_steps", "value": [480000, 640000], "metadata": {"file": "tools/train_mlperf.py", "lineno": 134}}
+:::MLLOG {"namespace": "", "time_ms": 1715553644208, "event_type": "POINT_IN_TIME", "key": "min_image_size", "value": 800, "metadata": {"file": "tools/train_mlperf.py", "lineno": 135}}
+:::MLLOG {"namespace": "", "time_ms": 1715553644208, "event_type": "POINT_IN_TIME", "key": "max_image_size", "value": 1333, "metadata": {"file": "tools/train_mlperf.py", "lineno": 136}}
+:::MLLOG {"namespace": "", "time_ms": 1715553644355, "event_type": "INTERVAL_END", "key": "init_stop", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 161}}
+:::MLLOG {"namespace": "", "time_ms": 1715553644355, "event_type": "INTERVAL_START", "key": "run_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 162}}
+:::MLLOG {"namespace": "", "time_ms": 1715553659938, "event_type": "POINT_IN_TIME", "key": "train_samples", "value": 720000, "metadata": {"file": "tools/train_mlperf.py", "lineno": 174}}
+:::MLLOG {"namespace": "", "time_ms": 1715553660750, "event_type": "INTERVAL_START", "key": "block_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 102, "first_epoch_num": 1, "epoch_count": 1}}
+:::MLLOG {"namespace": "", "time_ms": 1715553660750, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 103, "epoch_num": 1}}
+:::MLLOG {"namespace": "", "time_ms": 1715553669646, "event_type": "INTERVAL_END", "key": "run_stop", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 308, "status": "aborted"}}
+:::MLLOG {"namespace": "", "time_ms": 1715553744536, "event_type": "INTERVAL_START", "key": "init_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 220}}
+:::MLLOG {"namespace": "", "time_ms": 1715553744588, "event_type": "POINT_IN_TIME", "key": "seed", "value": 4124640380, "metadata": {"file": "tools/train_mlperf.py", "lineno": 267}}
+:::MLLOG {"namespace": "", "time_ms": 1715553747397, "event_type": "POINT_IN_TIME", "key": "global_batch_size", "value": 2, "metadata": {"file": "tools/train_mlperf.py", "lineno": 120}}
+:::MLLOG {"namespace": "", "time_ms": 1715553747398, "event_type": "POINT_IN_TIME", "key": "num_image_candidates", "value": 2000, "metadata": {"file": "tools/train_mlperf.py", "lineno": 121}}
+:::MLLOG {"namespace": "", "time_ms": 1715553750055, "event_type": "POINT_IN_TIME", "key": "opt_name", "value": "sgd_with_momentum", "metadata": {"file": "tools/train_mlperf.py", "lineno": 129}}
+:::MLLOG {"namespace": "", "time_ms": 1715553750056, "event_type": "POINT_IN_TIME", "key": "opt_base_learning_rate", "value": 0.0025, "metadata": {"file": "tools/train_mlperf.py", "lineno": 130}}
+:::MLLOG {"namespace": "", "time_ms": 1715553750056, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_warmup_steps", "value": 500, "metadata": {"file": "tools/train_mlperf.py", "lineno": 131}}
+:::MLLOG {"namespace": "", "time_ms": 1715553750056, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_warmup_factor", "value": 0.3333333333333333, "metadata": {"file": "tools/train_mlperf.py", "lineno": 132}}
+:::MLLOG {"namespace": "", "time_ms": 1715553750056, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_decay_factor", "value": 0.1, "metadata": {"file": "tools/train_mlperf.py", "lineno": 133}}
+:::MLLOG {"namespace": "", "time_ms": 1715553750056, "event_type": "POINT_IN_TIME", "key": "opt_learning_rate_decay_steps", "value": [480000, 640000], "metadata": {"file": "tools/train_mlperf.py", "lineno": 134}}
+:::MLLOG {"namespace": "", "time_ms": 1715553750056, "event_type": "POINT_IN_TIME", "key": "min_image_size", "value": 800, "metadata": {"file": "tools/train_mlperf.py", "lineno": 135}}
+:::MLLOG {"namespace": "", "time_ms": 1715553750056, "event_type": "POINT_IN_TIME", "key": "max_image_size", "value": 1333, "metadata": {"file": "tools/train_mlperf.py", "lineno": 136}}
+:::MLLOG {"namespace": "", "time_ms": 1715553750200, "event_type": "INTERVAL_END", "key": "init_stop", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 161}}
+:::MLLOG {"namespace": "", "time_ms": 1715553750200, "event_type": "INTERVAL_START", "key": "run_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 162}}
+:::MLLOG {"namespace": "", "time_ms": 1715553766009, "event_type": "POINT_IN_TIME", "key": "train_samples", "value": 720000, "metadata": {"file": "tools/train_mlperf.py", "lineno": 174}}
+:::MLLOG {"namespace": "", "time_ms": 1715553766813, "event_type": "INTERVAL_START", "key": "block_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 102, "first_epoch_num": 1, "epoch_count": 1}}
+:::MLLOG {"namespace": "", "time_ms": 1715553766814, "event_type": "INTERVAL_START", "key": "epoch_start", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 103, "epoch_num": 1}}
+:::MLLOG {"namespace": "", "time_ms": 1715566328905, "event_type": "INTERVAL_END", "key": "run_stop", "value": null, "metadata": {"file": "tools/train_mlperf.py", "lineno": 308, "status": "aborted"}}
