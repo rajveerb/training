@@ -29,14 +29,8 @@ arXiv preprint arXiv:1904.00445 (2019).
     ```bash
     git clone https://github.com/mlperf/training.git
     ```
-    once U-Net3D becomes available in the main repository.
+    once U-Net3D becomes available in the main repository. 
 
-2. Build the U-Net3D Docker container.
-    
-    ```bash
-    cd training/image_segmentation/pytorch
-    docker build -t unet3d .
-    ```
 
 ## Steps to download and verify data
 
@@ -44,14 +38,16 @@ arXiv preprint arXiv:1904.00445 (2019).
    
     To download the data please follow the instructions:
     ```bash
-    mkdir raw-data-dir
-    cd raw-data-dir
+    cd training/image_segmentation/
     git clone https://github.com/neheller/kits19
     cd kits19
     pip3 install -r requirements.txt
+    mkdir data
+    mkdir preprocessed_data
+    mkdir results
     python3 -m starter_code.get_imaging
     ```
-    This will download the original, non-interpolated data to `raw-data-dir/kits19/data`
+    This will download the original, non-interpolated data to `training/image_segmentation/kits19/data`
 
  
 2. Start an interactive session in the container to run preprocessing/training/inference.
@@ -62,11 +58,10 @@ arXiv preprint arXiv:1904.00445 (2019).
     - (optionally) for results (RESULTS-DIR)
     
     ```bash
-    mkdir data
-    mkdir results
-    docker run --ipc=host -it --rm --runtime=nvidia -v RAW-DATA-DIR:/raw_data -v PREPROCESSED-DATA-DIR:/data -v RESULTS-DIR:/results unet3d:latest /bin/bash
+    cd training/image_segmentation/
+    docker run --ipc=host -it --rm -v kits19/data:/raw_data -v kits19/preprocessed_data:/data -v kits19/results:/results unet3d:latest /bin/bash
     ```
- 
+ docker run --ipc=host -it --rm --gpus all -v ./pytorch/:/workspace/unet3d -v ./kits19/data:/raw_data -v ./kits19/preprocessed_data:/data -v ./kits19/results:/results unet3d:default /bin/bash
 3. Preprocess the dataset.
     
     The data preprocessing script is called `preprocess_dataset.py`. All the required hyperparameters are already set. All you need to do is to invoke the script with correct paths:
@@ -76,18 +71,58 @@ arXiv preprint arXiv:1904.00445 (2019).
    
     The script will preprocess each volume and save it as a numpy array at `/data`. It will also display some statistics like the volume shape, mean and stddev of the voxel intensity. Also, it will run a checksum on each file comparing it with the source.
 
+## Steps to build the benchmark
+
+1. The benchmark can either be run on a bare metal machine or inside a docker container.
+
+    - (Bare metal)
+    ```bash
+    nohup bash metal_setup_env.sh &
+    ```
+    - (Docker)
+    ```bash
+    # below will take some time TODO: replace the Dockerfile setup script with docker specific ...
+    docker build -t unet3d .
+    ```
+
+
 ## Steps to run and time
 
 The basic command to run on 1 worker takes form:
-```bash
-bash run_and_time.sh <SEED>
-```
+
+- (Bare metal)
+    ```bash
+    conda activate instrumentation_env
+    #Use below for no logging
+    bash metal_run_and_time.sh <SEED>
+    #Use below for logging, note: below works only for training case not for validation although it can be easily extended
+    bash metal_run_and_time.sh <SEED> <LOG_FILE_PATH>
+    ```
+- (Docker)
+    ```bash
+    conda activate instrumentation_env
+    #Use below for no logging
+    bash run_and_time.sh <SEED>
+    #Use below for logging, note: below works only for training case not for validation although it can be easily extended
+    bash run_and_time.sh <SEED> <LOG_FILE_PATH>
+    ```
 
 The script assumes that the data is available at `/data` directory.
 
 Running this command for seeds in range `{0, 1, ..., 9}` should converge to the target accuracy `mean_dice` = 0.908. 
 The training will be terminated once the quality threshold is reached or the maximum number of epochs is surpassed. 
 If needed, those variables can be modified within the `run_and_time.sh` script.
+
+## Meta build details for instrumented PyTorch and TorchVision:
+
+    We have not made any functional changes to the libraries which means PyTorch and TorchVision can be built as per the instructions. 
+    If there's an issue during the build of these libraries, it has nothing to do with our instrumentation.
+
+    1. The container image already has conda installed so simply create a new environment.
+    2. Install PyTorch before TorchVision because during TorchVision build if PyTorch is not found to be already installed then it will install from the public pytorch channel instead of using our build. 
+    3. Install PyTorch from https://github.com/rajveerb/pytorch.git using branch `v2.0.0_instrumentation`
+    4. Install TorchVision from https://github.com/rajveerb/vision.git using branch `v0.15_instrumentation`
+    5. You're all set!
 
 
 ## Repository content

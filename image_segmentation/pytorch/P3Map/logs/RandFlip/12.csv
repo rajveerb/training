@@ -1,0 +1,4 @@
+Function,CPU Time,CPU Time:Effective Time,CPU Time:Spin Time,CPU Time:Overhead Time,Module,Function (Full),Source File,Start Address
+__memmove_avx_unaligned_erms,0.267034,0.267034,0.0,0.0,libc.so.6,__memmove_avx_unaligned_erms,memmove-vec-unaligned-erms.S,0x18b910
+_aligned_strided_to_contig_size4,0.152374,0.152374,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,_aligned_strided_to_contig_size4,[Unknown],0x238e90
+_aligned_strided_to_contig_size1,0.047603,0.047603,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,_aligned_strided_to_contig_size1,[Unknown],0x237e90

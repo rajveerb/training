@@ -1,0 +1,382 @@
+Source Function / Function / Call Stack	CPU Time	Clockticks	Instructions Retired	CPI Rate	Retiring	Front-End Bound	Bad Speculation	L1 Bound	L2 Bound	L3 Bound	Memory Bandwidth	Local Memory	Remote Memory	Remote Cache	Store Bound	Core Bound	Average CPU Frequency	Module	Function (Full)	Source File	Start Address
+func@0x3fd7b0	31.380s	111,024,000,000	327,344,000,000	0.339	68.3%	1.1%	2.0%	3.7%	0.0%	0.2%	0.2%	0.0%	0.0%	0.0%	0.0%	25.3%	3.5 GHz	[Unknown]	func@0x3fd7b0	[Unknown]	0
+clear_page_erms	8.280s	29,456,000,000	384,000,000	76.708	3.8%	0.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	88.6%	50.3%	3.6 GHz	[Unknown]	clear_page_erms	[Unknown]	0
+func@0x159f20	8.005s	27,696,000,000	78,944,000,000	0.351	75.0%	1.3%	8.5%	2.1%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	14.4%	3.5 GHz	[Unknown]	func@0x159f20	[Unknown]	0
+clock_gettime	5.760s	19,920,000,000	41,200,000,000	0.483	57.6%	1.0%	0.0%	13.9%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	53.5%	3.5 GHz	[Unknown]	clock_gettime	[Unknown]	0
+func@0x4e0d70	4.315s	16,672,000,000	23,456,000,000	0.711	39.9%	4.2%	12.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	43.7%	3.9 GHz	[Unknown]	func@0x4e0d70	[Unknown]	0
+copy_user_enhanced_fast_string	4.020s	13,760,000,000	416,000,000	33.077	8.6%	0.3%	0.0%	9.7%	0.3%	8.5%	74.2%	100.0%	100.0%	0.0%	33.0%	18.3%	3.4 GHz	[Unknown]	copy_user_enhanced_fast_string	[Unknown]	0
+NI_FindObjects	3.035s	10,688,000,000	41,392,000,000	0.258	86.9%	3.4%	0.0%	0.0%	1.7%	0.0%	43.1%	0.0%	0.0%	0.0%	0.0%	13.0%	3.5 GHz	[Unknown]	NI_FindObjects	[Unknown]	0
+func@0x291e70	2.590s	9,344,000,000	23,440,000,000	0.399	70.3%	6.4%	0.0%	4.2%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	84.9%	3.6 GHz	[Unknown]	func@0x291e70	[Unknown]	0
+func@0x36a860	2.200s	8,624,000,000	8,752,000,000	0.985	27.0%	1.7%	61.5%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	9.8%	3.9 GHz	[Unknown]	func@0x36a860	[Unknown]	0
+__pyx_fuse_2__pyx_f_9_ni_label_fused_read_line	2.015s	7,408,000,000	29,808,000,000	0.249	100.0%	5.6%	0.2%	14.3%	2.0%	0.0%	38.4%	0.0%	0.0%	0.0%	0.0%	1.0%	3.7 GHz	[Unknown]	__pyx_fuse_2__pyx_f_9_ni_label_fused_read_line	[Unknown]	0
+func@0x175ac0	1.880s	7,216,000,000	8,288,000,000	0.871	43.8%	0.0%	0.0%	2.7%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	76.7%	3.8 GHz	[Unknown]	func@0x175ac0	[Unknown]	0
+__pyx_fuse_2__pyx_f_9_ni_label_fused_write_line	1.770s	6,032,000,000	28,464,000,000	0.212	100.0%	2.6%	0.8%	0.0%	0.0%	0.0%	2.9%	0.0%	0.0%	0.0%	0.0%	0.0%	3.4 GHz	[Unknown]	__pyx_fuse_2__pyx_f_9_ni_label_fused_write_line	[Unknown]	0
+do_syscall_64	1.505s	4,704,000,000	416,000,000	11.308	14.4%	3.5%	2.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	79.7%	3.1 GHz	[Unknown]	do_syscall_64	[Unknown]	0
+thread_main	1.430s	3,344,000,000	1,104,000,000	3.029	13.5%	6.7%	8.4%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	71.4%	2.3 GHz	[Unknown]	thread_main	[Unknown]	0
+__pyx_f_9_ni_label_label_line_with_neighbor	1.410s	5,232,000,000	23,632,000,000	0.221	56.7%	7.5%	14.6%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	21.2%	3.7 GHz	[Unknown]	__pyx_f_9_ni_label_label_line_with_neighbor	[Unknown]	0
+__pyx_pw_9_ni_label_7_label	1.315s	4,800,000,000	15,744,000,000	0.305	79.5%	12.4%	12.7%	3.7%	0.0%	0.0%	36.8%	0.0%	0.0%	0.0%	0.0%	0.0%	3.7 GHz	[Unknown]	__pyx_pw_9_ni_label_7_label	[Unknown]	0
+__pyx_fuse_4__pyx_f_9_ni_label_fused_nonzero_line	0.965s	3,008,000,000	12,864,000,000	0.234	89.9%	10.2%	12.6%	0.0%	0.0%	0.0%	19.6%	0.0%	0.0%	0.0%	6.3%	0.0%	3.1 GHz	[Unknown]	__pyx_fuse_4__pyx_f_9_ni_label_fused_nonzero_line	[Unknown]	0
+func@0x368860	0.905s	3,264,000,000	3,536,000,000	0.923	46.0%	0.0%	74.5%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.6 GHz	[Unknown]	func@0x368860	[Unknown]	0
+entry_SYSCALL_64	0.835s	2,128,000,000	144,000,000	14.778	20.1%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	90.1%	2.5 GHz	[Unknown]	entry_SYSCALL_64	[Unknown]	0
+func@0x4e0260	0.795s	2,464,000,000	11,776,000,000	0.209	100.0%	2.2%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.1 GHz	[Unknown]	func@0x4e0260	[Unknown]	0
+__GI___clock_gettime	0.740s	2,400,000,000	5,680,000,000	0.423	61.9%	3.9%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	73.4%	3.2 GHz	[Unknown]	__GI___clock_gettime	clock_gettime.c	0
+syscall_return_via_sysret	0.710s	2,352,000,000	512,000,000	4.594	11.3%	7.0%	4.7%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	77.0%	3.3 GHz	[Unknown]	syscall_return_via_sysret	[Unknown]	0
+INT_maximum_AVX2	0.605s	2,208,000,000	800,000,000	2.760	10.1%	1.9%	5.6%	0.0%	8.2%	0.0%	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	3.6 GHz	[Unknown]	INT_maximum_AVX2	[Unknown]	0
+__memmove_avx_unaligned_erms	0.560s	2,160,000,000	880,000,000	2.455	12.2%	11.9%	6.2%	26.6%	11.4%	0.0%	71.3%	0.0%	0.0%	0.0%	100.0%	0.0%	3.9 GHz	[Unknown]	__memmove_avx_unaligned_erms	memmove-vec-unaligned-erms.S	0
+_Z16_mm256_storeu_psPfDv8_f	0.460s	960,000,000	256,000,000	3.750	0.0%	6.1%	7.9%	65.7%	0.0%	0.0%	68.7%	0.0%	0.0%	0.0%	60.7%	11.5%	2.1 GHz	[Unknown]	_Z16_mm256_storeu_psPfDv8_f	avxintrin.h	0
+isolate_freepages_block	0.460s	1,712,000,000	1,088,000,000	1.574	2.5%	2.7%	11.0%	30.6%	20.8%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	18.1%	3.7 GHz	[Unknown]	isolate_freepages_block	[Unknown]	0
+func@0x1976c0	0.425s	1,312,000,000	5,968,000,000	0.220	75.5%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	24.5%	3.1 GHz	[Unknown]	func@0x1976c0	[Unknown]	0
+change_pte_range	0.415s	1,232,000,000	768,000,000	1.604	4.2%	0.0%	0.0%	0.0%	44.2%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.0 GHz	[Unknown]	change_pte_range	[Unknown]	0
+page_fault	0.390s	1,136,000,000	96,000,000	11.833	20.4%	15.1%	6.4%	2.2%	0.0%	0.0%	71.4%	0.0%	0.0%	0.0%	17.0%	32.8%	2.9 GHz	[Unknown]	page_fault	[Unknown]	0
+__memcpy_sse2_unaligned_erms	0.370s	976,000,000	560,000,000	1.743	30.4%	0.0%	15.2%	0.0%	60.9%	0.0%	60.9%	0.0%	0.0%	0.0%	40.6%	9.1%	2.6 GHz	[Unknown]	__memcpy_sse2_unaligned_erms	memmove-vec-unaligned-erms.S	0
+_PyEval_EvalFrameDefault	0.345s	816,000,000	1,120,000,000	0.729	17.0%	17.9%	39.9%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	21.9%	2.4 GHz	[Unknown]	_PyEval_EvalFrameDefault	ceval.c	0
+prepare_exit_to_usermode	0.340s	1,248,000,000	144,000,000	8.667	5.3%	10.7%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	84.1%	3.7 GHz	[Unknown]	prepare_exit_to_usermode	[Unknown]	0
+legacy_gauss	0.335s	1,408,000,000	1,632,000,000	0.863	78.1%	3.5%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	24.3%	4.2 GHz	[Unknown]	legacy_gauss	[Unknown]	0
+__schedule	0.335s	1,088,000,000	672,000,000	1.619	34.5%	0.0%	26.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	39.5%	3.2 GHz	[Unknown]	__schedule	[Unknown]	0
+generic_file_buffered_read	0.295s	896,000,000	304,000,000	2.947	7.4%	7.7%	17.8%	24.1%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	45.1%	2.1%	3.0 GHz	[Unknown]	generic_file_buffered_read	[Unknown]	0
+zap_pte_range.isra.0	0.285s	576,000,000	560,000,000	1.029				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.0 GHz	[Unknown]	zap_pte_range.isra.0	[Unknown]	0
+__pyx_f_5numpy_6random_8_mt19937_mt19937_double	0.275s	912,000,000	2,560,000,000	0.356	100.0%	0.0%	41.5%	20.7%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.3 GHz	[Unknown]	__pyx_f_5numpy_6random_8_mt19937_mt19937_double	[Unknown]	0
+UBYTE_equal_AVX2	0.255s	960,000,000	480,000,000	2.000				100.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%		3.8 GHz	[Unknown]	UBYTE_equal_AVX2	[Unknown]	0
+func@0x49ccc0	0.250s	912,000,000	1,888,000,000	0.483	9.7%	6.5%	19.5%	21.7%	0.0%	0.0%	43.4%	0.0%	0.0%	0.0%	0.0%	0.0%	3.6 GHz	[Unknown]	func@0x49ccc0	[Unknown]	0
+__GI___pthread_once	0.245s	1,024,000,000	3,104,000,000	0.330				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		4.2 GHz	[Unknown]	__GI___pthread_once	pthread_once.c	0
+UBYTE_greater_AVX2	0.240s	944,000,000	608,000,000	1.553	5.6%	5.2%	0.0%	0.0%	9.0%	0.0%	58.6%	0.0%	0.0%	0.0%	19.1%	0.0%	3.9 GHz	[Unknown]	UBYTE_greater_AVX2	[Unknown]	0
+copy_page	0.235s	592,000,000	0		0.0%	0.0%	10.3%	73.3%	0.0%	0.0%	29.9%	0.0%	0.0%	0.0%	0.0%	0.0%	2.5 GHz	[Unknown]	copy_page	[Unknown]	0
+smp_call_function_single	0.235s	1,136,000,000	176,000,000	6.455				67.6%	0.2%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		4.8 GHz	[Unknown]	smp_call_function_single	[Unknown]	0
+array_boolean_subscript	0.215s	736,000,000	2,592,000,000	0.284	49.6%	0.0%	1.2%	29.3%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.4 GHz	[Unknown]	array_boolean_subscript	[Unknown]	0
+pick_next_task_fair	0.215s	800,000,000	864,000,000	0.926	54.0%	18.8%	29.5%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.7 GHz	[Unknown]	pick_next_task_fair	[Unknown]	0
+copy_pte_range.isra.0	0.185s	656,000,000	256,000,000	2.562	0.0%	0.0%	11.3%	30.2%	0.0%	0.0%	30.2%	0.0%	0.0%	0.0%	0.0%	29.6%	3.5 GHz	[Unknown]	copy_pte_range.isra.0	[Unknown]	0
+rmqueue	0.180s	624,000,000	432,000,000	1.444	44.6%	7.8%	0.0%	0.0%	0.0%	0.0%	28.8%	0.0%	0.0%	0.0%	28.1%	46.7%	3.5 GHz	[Unknown]	rmqueue	[Unknown]	0
+_raw_spin_lock	0.180s	592,000,000	672,000,000	0.881	38.0%	54.7%	20.1%	0.0%	33.4%	0.0%	32.7%	0.0%	0.0%	0.0%	0.0%	0.0%	3.3 GHz	[Unknown]	_raw_spin_lock	[Unknown]	0
+_aligned_strided_to_contig_size4	0.170s	496,000,000	480,000,000	1.033	17.6%	0.0%	0.0%	0.0%	33.6%	38.9%	100.0%	0.0%	0.0%	0.0%	0.0%		2.9 GHz	[Unknown]	_aligned_strided_to_contig_size4	[Unknown]	0
+mem_cgroup_try_charge	0.165s	512,000,000	16,000,000	32.000	0.0%	0.0%	0.0%	38.7%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	17.3%	3.1 GHz	[Unknown]	mem_cgroup_try_charge	[Unknown]	0
+count_nonzero_u8	0.160s	528,000,000	1,152,000,000	0.458	43.8%	0.0%	2.6%	76.2%	40.9%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	9.6%	3.3 GHz	[Unknown]	count_nonzero_u8	[Unknown]	0
+update_curr	0.155s	608,000,000	464,000,000	1.310	85.2%	37.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.1%	3.9 GHz	[Unknown]	update_curr	[Unknown]	0
+error_entry	0.155s	208,000,000	96,000,000	2.167	0.0%	47.6%	47.6%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	4.8%	1.3 GHz	[Unknown]	error_entry	[Unknown]	0
+__ieee754_log_fma	0.150s	560,000,000	1,536,000,000	0.365	100.0%	0.0%	26.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.7 GHz	[Unknown]	__ieee754_log_fma	e_log.c	0
+mem_cgroup_throttle_swaprate	0.145s	432,000,000	96,000,000	4.500	0.0%	29.1%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	70.9%	3.0 GHz	[Unknown]	mem_cgroup_throttle_swaprate	[Unknown]	0
+func@0x411bb0	0.140s	480,000,000	1,472,000,000	0.326	82.5%	0.0%	41.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.4 GHz	[Unknown]	func@0x411bb0	[Unknown]	0
+yield_task_fair	0.140s	352,000,000	144,000,000	2.444	35.4%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	84.9%	2.5 GHz	[Unknown]	yield_task_fair	[Unknown]	0
+func@0x484fd0	0.140s	416,000,000	1,360,000,000	0.306				0.0%	0.0%	0.0%	47.6%	0.0%	0.0%	0.0%	0.0%		3.0 GHz	[Unknown]	func@0x484fd0	[Unknown]	0
+func@0xd5890	0.135s	528,000,000	2,336,000,000	0.226				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.9 GHz	[Unknown]	func@0xd5890	[Unknown]	0
+_Z19_mm256_storeu_si256PDv4_xS_	0.125s	240,000,000	80,000,000	3.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	60.7%	0.0%	0.0%	0.0%	100.0%	64.0%	1.9 GHz	[Unknown]	_Z19_mm256_storeu_si256PDv4_xS_	avxintrin.h	0
+__ia32_sys_sched_yield	0.125s	240,000,000	128,000,000	1.875	62.5%	31.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	37.5%	1.9 GHz	[Unknown]	__ia32_sys_sched_yield	[Unknown]	0
+_Py_DECREF	0.120s	464,000,000	448,000,000	1.036	42.7%	40.5%	0.0%	0.0%	90.6%	0.0%	38.4%	0.0%	0.0%	0.0%	0.0%	25.2%	3.9 GHz	[Unknown]	_Py_DECREF	object.h	0
+swapgs_restore_regs_and_return_to_usermode	0.120s	448,000,000	160,000,000	2.800				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.7 GHz	[Unknown]	swapgs_restore_regs_and_return_to_usermode	[Unknown]	0
+quicksort_<npy::bool_tag, unsigned char>	0.120s	400,000,000	1,728,000,000	0.231	100.0%	32.9%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.3 GHz	[Unknown]	quicksort_<npy::bool_tag, unsigned char>(unsigned char*, long)	[Unknown]	0
+compaction_alloc	0.115s	272,000,000	144,000,000	1.889	22.1%	0.0%	22.1%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	55.7%	2.4 GHz	[Unknown]	compaction_alloc	[Unknown]	0
+func@0x485fc0	0.115s	496,000,000	1,680,000,000	0.295	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	39.9%	0.0%	0.0%	0.0%	0.0%	0.0%	4.3 GHz	[Unknown]	func@0x485fc0	[Unknown]	0
+xas_load	0.110s	272,000,000	560,000,000	0.486	72.3%	0.0%	33.9%	71.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.5 GHz	[Unknown]	xas_load	[Unknown]	0
+lookdict_unicode_nodummy	0.110s	240,000,000	336,000,000	0.714	0.0%	23.7%	94.6%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.2 GHz	[Unknown]	lookdict_unicode_nodummy	dictobject.c	0
+page_remove_rmap	0.110s	256,000,000	256,000,000	1.000	100.0%	0.0%	94.1%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.3 GHz	[Unknown]	page_remove_rmap	[Unknown]	0
+do_sched_yield	0.105s	320,000,000	96,000,000	3.333	23.4%	0.0%	23.4%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	53.1%	3.0 GHz	[Unknown]	do_sched_yield	[Unknown]	0
+switch_fpu_return	0.105s	240,000,000	16,000,000	15.000	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	6.2%	2.3 GHz	[Unknown]	switch_fpu_return	[Unknown]	0
+free_pcppages_bulk	0.105s	304,000,000	128,000,000	2.375				0.0%	86.8%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.9 GHz	[Unknown]	free_pcppages_bulk	[Unknown]	0
+sched_yield	0.100s	272,000,000	32,000,000	8.500	46.2%	23.1%	21.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	9.7%	2.7 GHz	[Unknown]	sched_yield	syscall-template.S	0
+prep_new_page	0.095s	208,000,000	96,000,000	2.167	0.0%	0.0%	45.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	30.7%	2.2 GHz	[Unknown]	prep_new_page	[Unknown]	0
+do_spin	0.095s	240,000,000	32,000,000	7.500	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.5 GHz	[Unknown]	do_spin	wait.h	0
+cpuacct_charge	0.095s	432,000,000	336,000,000	1.286	33.8%	9.4%	36.1%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	20.7%	4.5 GHz	[Unknown]	cpuacct_charge	[Unknown]	0
+pick_next_entity	0.095s	256,000,000	320,000,000	0.800	100.0%	67.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.7 GHz	[Unknown]	pick_next_entity	[Unknown]	0
+func@0x17ea80	0.095s	192,000,000	272,000,000	0.706	100.0%	0.0%	51.6%	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	100.0%	0.0%	2.0 GHz	[Unknown]	func@0x17ea80	[Unknown]	0
+set_pfnblock_flags_mask	0.095s	288,000,000	112,000,000	2.571				0.0%	47.4%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.0 GHz	[Unknown]	set_pfnblock_flags_mask	[Unknown]	0
+entry_SYSCALL_64_after_hwframe	0.090s	272,000,000	32,000,000	8.500	0.0%	27.6%	25.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	47.4%	3.0 GHz	[Unknown]	entry_SYSCALL_64_after_hwframe	[Unknown]	0
+__memcmp_avx2_movbe	0.090s	240,000,000	128,000,000	1.875	20.6%	20.1%	0.0%	82.5%	0.0%	82.5%	82.5%	0.0%	0.0%	0.0%	0.0%		2.7 GHz	[Unknown]	__memcmp_avx2_movbe	memcmp-avx2-movbe.S	0
+release_pages	0.090s	336,000,000	352,000,000	0.955				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.7 GHz	[Unknown]	release_pages	[Unknown]	0
+do_lookup_x	0.090s	256,000,000	336,000,000	0.762	0.0%	0.0%	34.8%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	65.2%	2.8 GHz	[Unknown]	do_lookup_x	dl-lookup.c	0
+__calc_delta	0.090s	160,000,000	432,000,000	0.370	100.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.8 GHz	[Unknown]	__calc_delta	[Unknown]	0
+native_flush_tlb_one_user	0.085s	288,000,000	0		20.5%	38.8%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	61.2%	3.4 GHz	[Unknown]	native_flush_tlb_one_user	[Unknown]	0
+find_get_entry	0.085s	96,000,000	608,000,000	0.158	52.8%	0.0%	34.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	13.2%	1.1 GHz	[Unknown]	find_get_entry	[Unknown]	0
+__switch_to	0.085s	272,000,000	112,000,000	2.429	55.1%	27.6%	27.6%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.2 GHz	[Unknown]	__switch_to	[Unknown]	0
+__reset_isolation_pfn	0.085s	352,000,000	144,000,000	2.444	0.0%	0.0%	0.0%	49.8%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	4.1 GHz	[Unknown]	__reset_isolation_pfn	[Unknown]	0
+legacy_normal	0.080s	240,000,000	96,000,000	2.500	0.0%	0.0%	0.0%	73.1%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	21.2%	3.0 GHz	[Unknown]	legacy_normal	[Unknown]	0
+get_mem_cgroup_from_mm	0.080s	240,000,000	48,000,000	5.000	41.3%	40.3%	0.0%	78.6%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	73.1%	21.7%	3.0 GHz	[Unknown]	get_mem_cgroup_from_mm	[Unknown]	0
+cpa_flush	0.080s	288,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.6 GHz	[Unknown]	cpa_flush	[Unknown]	0
+try_charge	0.075s	352,000,000	128,000,000	2.750	25.6%	0.0%	61.2%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	13.2%	4.7 GHz	[Unknown]	try_charge	[Unknown]	0
+_PyType_Lookup	0.075s	256,000,000	160,000,000	1.600	36.8%	100.0%	0.0%	0.0%	9.6%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.4 GHz	[Unknown]	_PyType_Lookup	typeobject.c	0
+__mod_memcg_state	0.075s	144,000,000	320,000,000	0.450	62.5%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.9 GHz	[Unknown]	__mod_memcg_state	[Unknown]	0
+_int_malloc	0.075s	368,000,000	352,000,000	1.045	53.8%	26.9%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	46.2%	4.9 GHz	[Unknown]	_int_malloc	malloc.c	0
+pthreadpool_create	0.070s	144,000,000	16,000,000	9.000	61.5%	65.5%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.1 GHz	[Unknown]	pthreadpool_create	[Unknown]	0
+_Py_INCREF	0.070s	144,000,000	96,000,000	1.500	0.0%	100.0%	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.1 GHz	[Unknown]	_Py_INCREF	object.h	0
+get_pfnblock_flags_mask	0.070s	160,000,000	176,000,000	0.909				100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.3 GHz	[Unknown]	get_pfnblock_flags_mask	[Unknown]	0
+func@0x32cac0	0.070s	448,000,000	576,000,000	0.778				0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%		6.4 GHz	[Unknown]	func@0x32cac0	[Unknown]	0
+_Z13_mm256_mul_psDv8_fS_	0.070s	32,000,000	16,000,000	2.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	457.1 MHz	[Unknown]	_Z13_mm256_mul_psDv8_fS_	avxintrin.h	0
+visit_reachable	0.070s	208,000,000	208,000,000	1.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.0 GHz	[Unknown]	visit_reachable	gcmodule.c	0
+__GI___libc_malloc	0.070s	240,000,000	400,000,000	0.600	41.3%	37.1%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	62.9%	3.4 GHz	[Unknown]	__GI___libc_malloc	malloc.c	0
+func@0x4ee6a0	0.070s	176,000,000	96,000,000	1.833	0.0%	0.0%	56.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.5 GHz	[Unknown]	func@0x4ee6a0	[Unknown]	0
+lookdict_unicode	0.070s	192,000,000	128,000,000	1.500	46.4%	46.4%	51.6%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.7 GHz	[Unknown]	lookdict_unicode	dictobject.c	0
+mark_page_accessed	0.065s	32,000,000	208,000,000	0.154	100.0%	0.0%	89.6%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		492.3 MHz	[Unknown]	mark_page_accessed	[Unknown]	0
+pymalloc_alloc	0.065s	336,000,000	384,000,000	0.875	0.0%	57.8%	44.2%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	5.2 GHz	[Unknown]	pymalloc_alloc	obmalloc.c	0
+__handle_mm_fault	0.065s	272,000,000	496,000,000	0.548	0.0%	98.4%	32.6%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	4.2 GHz	[Unknown]	__handle_mm_fault	[Unknown]	0
+__pyx_f_5numpy_6random_7_common_cont	0.065s	112,000,000	96,000,000	1.167				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		1.7 GHz	[Unknown]	__pyx_f_5numpy_6random_7_common_cont	[Unknown]	0
+native_sched_clock	0.065s	128,000,000	192,000,000	0.667	100.0%	58.6%	58.6%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.0 GHz	[Unknown]	native_sched_clock	[Unknown]	0
+native_write_msr	0.065s	160,000,000	32,000,000	5.000	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.5 GHz	[Unknown]	native_write_msr	[Unknown]	0
+isolate_migratepages_block	0.065s	192,000,000	48,000,000	4.000				0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%		3.0 GHz	[Unknown]	isolate_migratepages_block	[Unknown]	0
+visit_decref	0.065s	288,000,000	144,000,000	2.000	0.0%	0.0%	34.4%	0.0%	68.8%	0.0%	61.9%	0.0%	0.0%	0.0%	0.0%	65.6%	4.4 GHz	[Unknown]	visit_decref	gcmodule.c	0
+__pthread_mutex_unlock_usercnt	0.060s	112,000,000	176,000,000	0.636	58.9%	57.5%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	42.5%	1.9 GHz	[Unknown]	__pthread_mutex_unlock_usercnt	pthread_mutex_unlock.c	0
+_aligned_strided_to_contig_size1	0.060s	240,000,000	624,000,000	0.385	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	55.0%	4.0 GHz	[Unknown]	_aligned_strided_to_contig_size1	[Unknown]	0
+at::transformation::uniform_real<float, unsigned int>	0.060s	144,000,000	464,000,000	0.310	68.8%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	31.2%	2.4 GHz	[Unknown]	at::transformation::uniform_real<float, unsigned int>(unsigned int, float, float)	TransformationHelper.h	0
+compact_unlock_should_abort.isra.0	0.055s	96,000,000	160,000,000	0.600				0.0%	100.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%		1.7 GHz	[Unknown]	compact_unlock_should_abort.isra.0	[Unknown]	0
+r_object	0.055s	112,000,000	208,000,000	0.538	0.0%	41.9%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	58.1%	2.0 GHz	[Unknown]	r_object	marshal.c	0
+blas_thread_server	0.055s	208,000,000	0		0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.8 GHz	[Unknown]	blas_thread_server	[Unknown]	0
+DOUBLE_multiply_AVX2	0.055s	96,000,000	48,000,000	2.000	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	10.2%	1.7 GHz	[Unknown]	DOUBLE_multiply_AVX2	[Unknown]	0
+_aligned_contig_cast_double_to_float	0.055s	208,000,000	256,000,000	0.812	32.6%	0.0%	0.0%	0.0%	84.3%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	67.4%	3.8 GHz	[Unknown]	_aligned_contig_cast_double_to_float	[Unknown]	0
+dict_traverse	0.055s	144,000,000	96,000,000	1.500	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.6 GHz	[Unknown]	dict_traverse	dictobject.c	0
+__x86_indirect_thunk_rax	0.050s	112,000,000	112,000,000	1.000	67.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.2 GHz	[Unknown]	__x86_indirect_thunk_rax	[Unknown]	0
+try_to_unmap_one	0.050s	112,000,000	128,000,000	0.875	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.2 GHz	[Unknown]	try_to_unmap_one	[Unknown]	0
+_cond_resched	0.050s	208,000,000	304,000,000	0.684				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		4.2 GHz	[Unknown]	_cond_resched	[Unknown]	0
+FLOAT_add_AVX2	0.050s	160,000,000	16,000,000	10.000	0.0%	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	FLOAT_add_AVX2	[Unknown]	0
+mt19937_gen	0.050s	128,000,000	480,000,000	0.267				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.6 GHz	[Unknown]	mt19937_gen	[Unknown]	0
+_PyFunction_Vectorcall	0.050s	64,000,000	64,000,000	1.000	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.3 GHz	[Unknown]	_PyFunction_Vectorcall	call.c	0
+schedule	0.050s	112,000,000	48,000,000	2.333	60.7%	0.0%	6.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	33.0%	2.2 GHz	[Unknown]	schedule	[Unknown]	0
+__switch_to_asm	0.050s	304,000,000	144,000,000	2.111	24.7%	24.7%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	75.3%	6.1 GHz	[Unknown]	__switch_to_asm	[Unknown]	0
+free_pages_and_swap_cache	0.045s	64,000,000	64,000,000	1.000	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.4 GHz	[Unknown]	free_pages_and_swap_cache	[Unknown]	0
+gc_reset_refs	0.045s	176,000,000	16,000,000	11.000	0.0%	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.9 GHz	[Unknown]	gc_reset_refs	gcmodule.c	0
+_nv035065rm	0.045s	176,000,000	0		0.0%	75.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	25.0%	3.9 GHz	[Unknown]	_nv035065rm	[Unknown]	0
+filemap_map_pages	0.045s	208,000,000	16,000,000	13.000	0.0%	0.0%	29.4%	95.2%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		4.6 GHz	[Unknown]	filemap_map_pages	[Unknown]	0
+__update_load_avg_cfs_rq	0.045s	80,000,000	128,000,000	0.625	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.8 GHz	[Unknown]	__update_load_avg_cfs_rq	[Unknown]	0
+_int_free	0.045s	224,000,000	304,000,000	0.737	100.0%	0.0%	0.0%	86.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	28.2%	5.0 GHz	[Unknown]	_int_free	malloc.c	0
+native_queued_spin_lock_slowpath	0.045s	96,000,000	64,000,000	1.500				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.1 GHz	[Unknown]	native_queued_spin_lock_slowpath	[Unknown]	0
+__free_pages_ok	0.045s	144,000,000	160,000,000	0.900	65.5%	0.0%	11.8%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	22.8%	3.2 GHz	[Unknown]	__free_pages_ok	[Unknown]	0
+__mod_lruvec_state	0.040s	128,000,000	240,000,000	0.533	34.0%	0.0%	42.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	24.0%	3.2 GHz	[Unknown]	__mod_lruvec_state	[Unknown]	0
+__GI___pthread_mutex_lock	0.040s	48,000,000	48,000,000	1.000	100.0%	0.0%	91.3%	0.0%	100.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.2 GHz	[Unknown]	__GI___pthread_mutex_lock	pthread_mutex_lock.c	0
+copy_page_to_iter	0.040s	128,000,000	464,000,000	0.276				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.2 GHz	[Unknown]	copy_page_to_iter	[Unknown]	0
+mem_cgroup_try_charge_delay	0.040s	144,000,000	16,000,000	9.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%		3.6 GHz	[Unknown]	mem_cgroup_try_charge_delay	[Unknown]	0
+__tls_get_addr	0.040s	16,000,000	48,000,000	0.333				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		400.0 MHz	[Unknown]	__tls_get_addr	tls_get_addr.S	0
+call_function_single_interrupt	0.040s	192,000,000	16,000,000	12.000	0.0%	51.6%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		4.8 GHz	[Unknown]	call_function_single_interrupt	[Unknown]	0
+llist_add_batch	0.040s	160,000,000	16,000,000	10.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	4.0 GHz	[Unknown]	llist_add_batch	[Unknown]	0
+handle_mm_fault	0.040s	112,000,000	144,000,000	0.778	96.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	11.6%	2.8 GHz	[Unknown]	handle_mm_fault	[Unknown]	0
+PyDict_GetItemWithError	0.040s	96,000,000	48,000,000	2.000	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.4 GHz	[Unknown]	PyDict_GetItemWithError	dictobject.c	0
+vectorized_loop<at::native::AVX2::direct_copy_kernel(at::TensorIteratorBase&)::<lambda()>::<lambda()>::<lambda(scalar_t)>&, at::native::AVX2::direct_copy_kernel(at::TensorIteratorBase&)::<lambda()>::<lambda()>::<lambda(at::vec::AVX2::Vectorized<float>)>&>	0.040s	96,000,000	0		0.0%	0.0%	38.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	31.0%	2.4 GHz	[Unknown]	vectorized_loop<at::native::AVX2::direct_copy_kernel(at::TensorIteratorBase&)::<lambda()>::<lambda()>::<lambda(scalar_t)>&, at::native::AVX2::direct_copy_kernel(at::TensorIteratorBase&)::<lambda()>::<lambda()>::<lambda(at::vec::AVX2::Vectorized<float>)>&>	Loops.h	0
+__mod_zone_page_state	0.040s	64,000,000	160,000,000	0.400	100.0%	0.0%	3.3%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.6 GHz	[Unknown]	__mod_zone_page_state	[Unknown]	0
+c10::DispatchKeySet::DispatchKeySet	0.035s	64,000,000	352,000,000	0.182	100.0%	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.8 GHz	[Unknown]	c10::DispatchKeySet::DispatchKeySet(c10::DispatchKey)	DispatchKeySet.h	0
+c10::DispatchKeySet::iterator::operator++	0.035s	48,000,000	112,000,000	0.429	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.4 GHz	[Unknown]	c10::DispatchKeySet::iterator::operator++(void)	DispatchKeySet.cpp	0
+at::mt19937_engine::operator()	0.035s	256,000,000	576,000,000	0.444	77.3%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	7.3 GHz	[Unknown]	at::mt19937_engine::operator()(void)	MT19937RNGEngine.h	0
+find_vma	0.035s	96,000,000	48,000,000	2.000	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.7 GHz	[Unknown]	find_vma	[Unknown]	0
+__count_memcg_events	0.035s	112,000,000	16,000,000	7.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	__count_memcg_events	[Unknown]	0
+__alloc_pages_nodemask	0.035s	128,000,000	144,000,000	0.889				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.7 GHz	[Unknown]	__alloc_pages_nodemask	[Unknown]	0
+dl_new_hash	0.035s	112,000,000	288,000,000	0.389				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.2 GHz	[Unknown]	dl_new_hash	dl-lookup.c	0
+__mod_node_page_state	0.035s	96,000,000	160,000,000	0.600	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.7 GHz	[Unknown]	__mod_node_page_state	[Unknown]	0
+update_min_vruntime	0.035s	176,000,000	256,000,000	0.688	42.6%	0.0%	65.9%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	5.0 GHz	[Unknown]	update_min_vruntime	[Unknown]	0
+vm_normal_page	0.035s	192,000,000	240,000,000	0.800				0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%		5.5 GHz	[Unknown]	vm_normal_page	[Unknown]	0
+func@0x154b30	0.035s	240,000,000	336,000,000	0.714	41.3%	100.0%	41.3%	82.5%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	6.9 GHz	[Unknown]	func@0x154b30	[Unknown]	0
+PyType_IsSubtype	0.035s	32,000,000	80,000,000	0.400	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	914.3 MHz	[Unknown]	PyType_IsSubtype	typeobject.c	0
+update_rq_clock	0.035s	96,000,000	64,000,000	1.500	78.1%	0.0%	34.4%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.7 GHz	[Unknown]	update_rq_clock	[Unknown]	0
+flush_tlb_mm_range	0.035s	144,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	4.1 GHz	[Unknown]	flush_tlb_mm_range	[Unknown]	0
+insertdict	0.035s	48,000,000	64,000,000	0.750	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.4 GHz	[Unknown]	insertdict	dictobject.c	0
+rcu_all_qs	0.035s	80,000,000	144,000,000	0.556				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.3 GHz	[Unknown]	rcu_all_qs	[Unknown]	0
+rwsem_spin_on_owner	0.035s	96,000,000	112,000,000	0.857				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.7 GHz	[Unknown]	rwsem_spin_on_owner	[Unknown]	0
+malloc_consolidate	0.035s	64,000,000	16,000,000	4.000	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		1.8 GHz	[Unknown]	malloc_consolidate	malloc.c	0
+untrack_tuples	0.035s	80,000,000	0		100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.3 GHz	[Unknown]	untrack_tuples	gcmodule.c	0
+__memset_avx2_unaligned_erms	0.035s	112,000,000	160,000,000	0.700				0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%		3.2 GHz	[Unknown]	__memset_avx2_unaligned_erms	memset-vec-unaligned-erms.S	0
+migrate_pages	0.035s	128,000,000	48,000,000	2.667				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.7 GHz	[Unknown]	migrate_pages	[Unknown]	0
+tcache_get	0.035s	80,000,000	48,000,000	1.667	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.3 GHz	[Unknown]	tcache_get	malloc.c	0
+__pagevec_lru_add_fn	0.030s	224,000,000	208,000,000	1.077				86.2%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		7.5 GHz	[Unknown]	__pagevec_lru_add_fn	[Unknown]	0
+func@0x32cd40	0.030s	64,000,000	64,000,000	1.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.1 GHz	[Unknown]	func@0x32cd40	[Unknown]	0
+_raw_spin_lock_irqsave	0.030s	64,000,000	48,000,000	1.333	100.0%	0.0%	17.7%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.1 GHz	[Unknown]	_raw_spin_lock_irqsave	[Unknown]	0
+__do_page_fault	0.030s	64,000,000	16,000,000	4.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.1 GHz	[Unknown]	__do_page_fault	[Unknown]	0
+__activate_page	0.030s	80,000,000	96,000,000	0.833	0.0%	0.0%	91.1%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.7 GHz	[Unknown]	__activate_page	[Unknown]	0
+__GI_	0.030s	144,000,000	64,000,000	2.250	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	4.8 GHz	[Unknown]	__GI_(long, int, bool, char)	malloc.c	0
+address_in_range	0.030s	96,000,000	80,000,000	1.200	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	address_in_range	obmalloc.c	0
+c10::impl::OperatorEntry::computeDispatchTableEntryWithDebug	0.030s	128,000,000	176,000,000	0.727	0.0%	77.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	22.7%	4.3 GHz	[Unknown]	c10::impl::OperatorEntry::computeDispatchTableEntryWithDebug(c10::Dispatcher const&, c10::DispatchKey) const	OperatorEntry.cpp	0
+memset_erms	0.030s	80,000,000	32,000,000	2.500	91.1%	0.0%	32.6%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.7 GHz	[Unknown]	memset_erms	[Unknown]	0
+gc_list_size	0.030s	80,000,000	16,000,000	5.000	0.0%	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.7 GHz	[Unknown]	gc_list_size	gcmodule.c	0
+flush_smp_call_function_queue	0.030s	96,000,000	32,000,000	3.000				100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.2 GHz	[Unknown]	flush_smp_call_function_queue	[Unknown]	0
+c10::intrusive_ptr<c10::OperatorKernel, c10::detail::intrusive_target_default_null_type<c10::OperatorKernel>>::swap	0.030s	80,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.7 GHz	[Unknown]	c10::intrusive_ptr<c10::OperatorKernel, c10::detail::intrusive_target_default_null_type<c10::OperatorKernel>>::swap(c10::intrusive_ptr<c10::OperatorKernel, c10::detail::intrusive_target_default_null_type<c10::OperatorKernel>>&)	intrusive_ptr.h	0
+PyObject_GetAttr	0.030s	96,000,000	32,000,000	3.000	92.8%	0.0%	10.4%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.2 GHz	[Unknown]	PyObject_GetAttr	object.c	0
+__isolate_lru_page	0.030s	64,000,000	32,000,000	2.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.1 GHz	[Unknown]	__isolate_lru_page	[Unknown]	0
+amd_clear_divider	0.030s	112,000,000	0		0.0%	88.4%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	11.6%	3.7 GHz	[Unknown]	amd_clear_divider	[Unknown]	0
+xas_start	0.030s	48,000,000	80,000,000	0.600	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	xas_start	[Unknown]	0
+pagecache_get_page	0.030s	32,000,000	16,000,000	2.000	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.1 GHz	[Unknown]	pagecache_get_page	[Unknown]	0
+free_unref_page_prepare.part.0	0.030s	32,000,000	80,000,000	0.400	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	free_unref_page_prepare.part.0	[Unknown]	0
+__fget_light	0.030s	16,000,000	16,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	533.3 MHz	[Unknown]	__fget_light	[Unknown]	0
+_Py_Dealloc	0.025s	48,000,000	0		0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.9 GHz	[Unknown]	_Py_Dealloc	object.c	0
+_PyEval_EvalCodeWithName	0.025s	80,000,000	48,000,000	1.667	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.2 GHz	[Unknown]	_PyEval_EvalCodeWithName	ceval.c	0
+fast_isolate_freepages	0.025s	80,000,000	16,000,000	5.000				100.0%	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%		3.2 GHz	[Unknown]	fast_isolate_freepages	[Unknown]	0
+frame_dealloc	0.025s	48,000,000	128,000,000	0.375				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		1.9 GHz	[Unknown]	frame_dealloc	frameobject.c	0
+smp_call_function_many	0.025s	112,000,000	32,000,000	3.500	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	4.5 GHz	[Unknown]	smp_call_function_many	[Unknown]	0
+_PyErr_Occurred	0.025s	48,000,000	16,000,000	3.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.9 GHz	[Unknown]	_PyErr_Occurred	pycore_pyerrors.h	0
+pymalloc_free	0.025s	32,000,000	96,000,000	0.333	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.3 GHz	[Unknown]	pymalloc_free	obmalloc.c	0
+printf_positional	0.025s	0	32,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	printf_positional	vfprintf-internal.c	0
+siphash24	0.025s	96,000,000	128,000,000	0.750	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.8 GHz	[Unknown]	siphash24	pyhash.c	0
+alloc_pages_vma	0.025s	0	32,000,000	0.000		0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	alloc_pages_vma	[Unknown]	0
+unlock_page	0.025s	64,000,000	64,000,000	1.000	100.0%	100.0%	54.9%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.6 GHz	[Unknown]	unlock_page	[Unknown]	0
+_PyObject_GetMethod	0.025s	96,000,000	32,000,000	3.000	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.8 GHz	[Unknown]	_PyObject_GetMethod	object.c	0
+tlb_is_not_lazy	0.025s	80,000,000	16,000,000	5.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.2 GHz	[Unknown]	tlb_is_not_lazy	[Unknown]	0
+__update_load_avg_se	0.025s	160,000,000	192,000,000	0.833	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	6.4 GHz	[Unknown]	__update_load_avg_se	[Unknown]	0
+mem_cgroup_from_task	0.025s	80,000,000	48,000,000	1.667	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	mem_cgroup_from_task	[Unknown]	0
+page_vma_mapped_walk	0.025s	64,000,000	144,000,000	0.444	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.6 GHz	[Unknown]	page_vma_mapped_walk	[Unknown]	0
+func@0x217b80	0.025s	80,000,000	96,000,000	0.833	0.0%	0.0%	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.2 GHz	[Unknown]	func@0x217b80	[Unknown]	0
+raw_array_assign_array	0.025s	96,000,000	128,000,000	0.750	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.8 GHz	[Unknown]	raw_array_assign_array	[Unknown]	0
+_Py_NewReference	0.020s	32,000,000	16,000,000	2.000	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.6 GHz	[Unknown]	_Py_NewReference	object.h	0
+up_read	0.020s	64,000,000	112,000,000	0.571	0.0%	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.2 GHz	[Unknown]	up_read	[Unknown]	0
+lookdict_split	0.020s	80,000,000	96,000,000	0.833	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	4.0 GHz	[Unknown]	lookdict_split	dictobject.c	0
+copyout	0.020s	64,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	copyout	[Unknown]	0
+PageHuge	0.020s	16,000,000	80,000,000	0.200	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	800.0 MHz	[Unknown]	PageHuge	[Unknown]	0
+func@0x35c30	0.020s	0	32,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	func@0x35c30	[Unknown]	0
+interrupt_entry	0.020s	48,000,000	0		0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.4 GHz	[Unknown]	interrupt_entry	[Unknown]	0
+c10::runtimeDispatchKeySetHas	0.020s	96,000,000	304,000,000	0.316	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	4.8 GHz	[Unknown]	c10::runtimeDispatchKeySetHas(c10::DispatchKey, c10::DispatchKey)	DispatchKeySet.cpp	0
+_PyObject_LookupSpecial	0.020s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	800.0 MHz	[Unknown]	_PyObject_LookupSpecial	typeobject.c	0
+do_numa_page	0.020s	112,000,000	80,000,000	1.400				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		5.6 GHz	[Unknown]	do_numa_page	[Unknown]	0
+clear_buddies	0.020s	64,000,000	128,000,000	0.500	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.2 GHz	[Unknown]	clear_buddies	[Unknown]	0
+c10::intrusive_ptr<c10::TensorImpl, c10::UndefinedTensorImpl>::reset_	0.020s	16,000,000	16,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	800.0 MHz	[Unknown]	c10::intrusive_ptr<c10::TensorImpl, c10::UndefinedTensorImpl>::reset_(void)	intrusive_ptr.h	0
+shmem_getpage_gfp	0.020s	80,000,000	32,000,000	2.500	100.0%	0.0%	14.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	4.0 GHz	[Unknown]	shmem_getpage_gfp	[Unknown]	0
+xas_store	0.020s	112,000,000	144,000,000	0.778	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	5.6 GHz	[Unknown]	xas_store	[Unknown]	0
+PyDict_SetDefault	0.020s	16,000,000	80,000,000	0.200	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	800.0 MHz	[Unknown]	PyDict_SetDefault	dictobject.c	0
+cgroup_rstat_updated	0.020s	32,000,000	48,000,000	0.667	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	cgroup_rstat_updated	[Unknown]	0
+get_page_from_freelist	0.020s	48,000,000	32,000,000	1.500	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.4 GHz	[Unknown]	get_page_from_freelist	[Unknown]	0
+cat_serial_kernel_impl<float>	0.020s	80,000,000	96,000,000	0.833				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		4.0 GHz	[Unknown]	cat_serial_kernel_impl<float>	CatKernel.cpp	0
+func@0x336ee0	0.020s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	800.0 MHz	[Unknown]	func@0x336ee0	[Unknown]	0
+__libc_calloc	0.020s	96,000,000	48,000,000	2.000	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0%	4.8 GHz	[Unknown]	__libc_calloc	malloc.c	0
+__strlen_avx2	0.020s	112,000,000	32,000,000	3.500	0.0%	88.4%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	11.6%	5.6 GHz	[Unknown]	__strlen_avx2	strlen-avx2.S	0
+_raw_spin_unlock_irqrestore	0.020s	64,000,000	80,000,000	0.800				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.2 GHz	[Unknown]	_raw_spin_unlock_irqrestore	[Unknown]	0
+__pthread_rwlock_wrlock_full	0.020s	0	48,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	__pthread_rwlock_wrlock_full	pthread_rwlock_common.c	0
+__GI___pthread_getspecific	0.020s	0	0	0.000	0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	__GI___pthread_getspecific	pthread_getspecific.c	0
+xas_clear_mark	0.020s	48,000,000	64,000,000	0.750	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.4 GHz	[Unknown]	xas_clear_mark	[Unknown]	0
+func@0x269189	0.020s	0	16,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	func@0x269189	[Unknown]	0
+unlink_chunk	0.020s	48,000,000	48,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.4 GHz	[Unknown]	unlink_chunk	malloc.c	0
+_nv036489rm	0.020s	32,000,000	80,000,000	0.400	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	_nv036489rm	[Unknown]	0
+_PyDict_GetItem_KnownHash	0.020s	80,000,000	48,000,000	1.667	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	4.0 GHz	[Unknown]	_PyDict_GetItem_KnownHash	dictobject.c	0
+truncate_cleanup_page	0.020s	0	16,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	truncate_cleanup_page	[Unknown]	0
+_PyDict_LoadGlobal	0.020s	112,000,000	64,000,000	1.750	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	5.6 GHz	[Unknown]	_PyDict_LoadGlobal	dictobject.c	0
+c10::DispatchKeySet::iterator::operator!=	0.020s	48,000,000	112,000,000	0.429	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.4 GHz	[Unknown]	c10::DispatchKeySet::iterator::operator!=(c10::DispatchKeySet::iterator const&) const	DispatchKeySet.h	0
+page_add_file_rmap	0.020s	64,000,000	80,000,000	0.800	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	page_add_file_rmap	[Unknown]	0
+ska::detailv3::sherwood_v3_table<std::pair<c10::DispatchKey, std::__cxx11::list<c10::impl::AnnotatedKernel, std::allocator<c10::impl::AnnotatedKernel>>>, c10::DispatchKey, std::hash<c10::DispatchKey>, ska::detailv3::KeyOrValueHasher<c10::DispatchKey, std::pair<c10::DispatchKey, std::__cxx11::list<c10::impl::AnnotatedKernel, std::allocator<c10::impl::AnnotatedKernel>>>, std::hash<c10::DispatchKey>>, std::equal_to<c10::DispatchKey>, ska::detailv3::KeyOrValueEquality<c10::DispatchKey, std::pair<c10::DispatchKey, std::__cxx11::list<c10::impl::AnnotatedKernel, std::allocator<c10::impl::AnnotatedKernel>>>, std::equal_to<c10::DispatchKey>>, std::allocator<std::pair<c10::DispatchKey, std::__cxx11::list<c10::impl::AnnotatedKernel, std::allocator<c10::impl::AnnotatedKernel>>>>, std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<c10::DispatchKey, std::__cxx11::list<c10::impl::AnnotatedKernel, std::allocator<c10::impl::AnnotatedKernel>>>>>>::find	0.020s	0	208,000,000	0.000		0.0%		0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	ska::detailv3::sherwood_v3_table<std::pair<c10::DispatchKey, std::__cxx11::list<c10::impl::AnnotatedKernel, std::allocator<c10::impl::AnnotatedKernel>>>, c10::DispatchKey, std::hash<c10::DispatchKey>, ska::detailv3::KeyOrValueHasher<c10::DispatchKey, std::pair<c10::DispatchKey, std::__cxx11::list<c10::impl::AnnotatedKernel, std::allocator<c10::impl::AnnotatedKernel>>>, std::hash<c10::DispatchKey>>, std::equal_to<c10::DispatchKey>, ska::detailv3::KeyOrValueEquality<c10::DispatchKey, std::pair<c10::DispatchKey, std::__cxx11::list<c10::impl::AnnotatedKernel, std::allocator<c10::impl::AnnotatedKernel>>>, std::equal_to<c10::DispatchKey>>, std::allocator<std::pair<c10::DispatchKey, std::__cxx11::list<c10::impl::AnnotatedKernel, std::allocator<c10::impl::AnnotatedKernel>>>>, std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<c10::DispatchKey, std::__cxx11::list<c10::impl::AnnotatedKernel, std::allocator<c10::impl::AnnotatedKernel>>>>>>::find(c10::DispatchKey const&)	flat_hash_map.h	0
+__kmalloc	0.015s	16,000,000	0		0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.1 GHz	[Unknown]	__kmalloc	[Unknown]	0
+shmem_alloc_and_acct_page	0.015s	16,000,000	64,000,000	0.250	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.1 GHz	[Unknown]	shmem_alloc_and_acct_page	[Unknown]	0
+unicode_eq	0.015s	64,000,000	32,000,000	2.000	81.4%	73.3%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	26.7%	4.3 GHz	[Unknown]	unicode_eq	eq.h	0
+put_prev_entity	0.015s	48,000,000	48,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	put_prev_entity	[Unknown]	0
+snapshot_refaults	0.015s	16,000,000	32,000,000	0.500	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	snapshot_refaults	[Unknown]	0
+func@0x3aecb0	0.015s	0	0	0.000		0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	func@0x3aecb0	[Unknown]	0
+std::__detail::_Mod_range_hashing::operator()	0.015s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	std::__detail::_Mod_range_hashing::operator()(unsigned long, unsigned long) const	hashtable_policy.h	0
+_PyFrame_New_NoTrack	0.015s	96,000,000	64,000,000	1.500	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	6.4 GHz	[Unknown]	_PyFrame_New_NoTrack	frameobject.c	0
+ucs1lib_find_max_char	0.015s	64,000,000	32,000,000	2.000	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	4.3 GHz	[Unknown]	ucs1lib_find_max_char	find_max_char.h	0
+remove_migration_pte	0.015s	32,000,000	80,000,000	0.400	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.1 GHz	[Unknown]	remove_migration_pte	[Unknown]	0
+psi_task_change	0.015s	32,000,000	32,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.1 GHz	[Unknown]	psi_task_change	[Unknown]	0
+free_unref_page_list	0.015s	0	96,000,000	0.000		0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	free_unref_page_list	[Unknown]	0
+BlockComparator	0.015s	0	0	0.000	0.0%	0.0%	0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	BlockComparator	CUDACachingAllocator.cpp	0
+func@0x3a6180	0.015s	32,000,000	32,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.1 GHz	[Unknown]	func@0x3a6180	[Unknown]	0
+update_stat	0.015s	32,000,000	16,000,000	2.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.1 GHz	[Unknown]	update_stat	CUDACachingAllocator.cpp	0
+alloc_pages_current	0.015s	64,000,000	16,000,000	4.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	4.3 GHz	[Unknown]	alloc_pages_current	[Unknown]	0
+PyErr_Occurred	0.015s	32,000,000	32,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.1 GHz	[Unknown]	PyErr_Occurred	errors.c	0
+__dynamic_cast	0.015s	16,000,000	64,000,000	0.250	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.1 GHz	[Unknown]	__dynamic_cast	dyncast.cc	0
+execute_op<at::native::templates::cpu::(anonymous namespace)::uniform_kernel(at::TensorIteratorBase&, double, double, RNG) [with RNG = at::CPUGeneratorImpl*]::<lambda()>::<lambda()>::<lambda()>&>	0.015s	144,000,000	224,000,000	0.643	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	9.6 GHz	[Unknown]	execute_op<at::native::templates::cpu::(anonymous namespace)::uniform_kernel(at::TensorIteratorBase&, double, double, RNG) [with RNG = at::CPUGeneratorImpl*]::<lambda()>::<lambda()>::<lambda()>&>	Loops.h	0
+switch_mm_irqs_off	0.015s	32,000,000	144,000,000	0.222	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.1 GHz	[Unknown]	switch_mm_irqs_off	[Unknown]	0
+std::vector<c10::basic_string_view<char>, std::allocator<c10::basic_string_view<char>>>::size	0.015s	16,000,000	32,000,000	0.500	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	std::vector<c10::basic_string_view<char>, std::allocator<c10::basic_string_view<char>>>::size(void) const	stl_vector.h	0
+fpregs_assert_state_consistent	0.015s	112,000,000	144,000,000	0.778	100.0%	96.4%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.6%	7.5 GHz	[Unknown]	fpregs_assert_state_consistent	[Unknown]	0
+_nv036488rm	0.015s	16,000,000	80,000,000	0.200	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	_nv036488rm	[Unknown]	0
+c10::toFunctionalityKey	0.015s	48,000,000	80,000,000	0.600	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.2 GHz	[Unknown]	c10::toFunctionalityKey(c10::DispatchKey)	DispatchKey.h	0
+c10::toBackendComponent	0.015s	16,000,000	112,000,000	0.143	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	c10::toBackendComponent(c10::DispatchKey)	DispatchKey.h	0
+method_vectorcall_NOARGS	0.015s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	method_vectorcall_NOARGS	descrobject.c	0
+c10::DispatchKeySet::DispatchKeySet	0.015s	80,000,000	96,000,000	0.833	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	5.3 GHz	[Unknown]	c10::DispatchKeySet::DispatchKeySet(c10::DispatchKey)	DispatchKeySet.h	0
+func@0x3366a0	0.015s	96,000,000	32,000,000	3.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	6.4 GHz	[Unknown]	func@0x3366a0	[Unknown]	0
+func@0x21f260	0.015s	16,000,000	32,000,000	0.500	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	func@0x21f260	[Unknown]	0
+function_code_fastcall	0.015s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0%	1.1 GHz	[Unknown]	function_code_fastcall	call.c	0
+update_load_avg	0.015s	112,000,000	304,000,000	0.368	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	76.8%	7.5 GHz	[Unknown]	update_load_avg	[Unknown]	0
+vgetargs1_impl	0.015s	16,000,000	16,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	vgetargs1_impl	getargs.c	0
+_PyObject_GenericGetAttrWithDict	0.015s	112,000,000	112,000,000	1.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		7.5 GHz	[Unknown]	_PyObject_GenericGetAttrWithDict	object.c	0
+__free_pages	0.015s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	__free_pages	[Unknown]	0
+call_function	0.015s	48,000,000	16,000,000	3.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	call_function	ceval.c	0
+__set_page_dirty_no_writeback	0.015s	48,000,000	32,000,000	1.500	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	__set_page_dirty_no_writeback	[Unknown]	0
+std::vector<at::Tensor, std::allocator<at::Tensor>>::operator=	0.015s	0	32,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	std::vector<at::Tensor, std::allocator<at::Tensor>>::operator=(std::vector<at::Tensor, std::allocator<at::Tensor>>&&)	stl_vector.h	0
+sre_ucs1_match	0.015s	80,000,000	80,000,000	1.000	0.0%	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	5.3 GHz	[Unknown]	sre_ucs1_match	sre_lib.h	0
+read_tsc	0.015s	32,000,000	16,000,000	2.000	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.1 GHz	[Unknown]	read_tsc	[Unknown]	0
+PyUnicode_InternInPlace	0.015s	32,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.1 GHz	[Unknown]	PyUnicode_InternInPlace	unicodeobject.c	0
+rb_erase	0.015s	32,000,000	48,000,000	0.667	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.1 GHz	[Unknown]	rb_erase	[Unknown]	0
+vmacache_find	0.015s	32,000,000	48,000,000	0.667	0.0%	0.0%	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		2.1 GHz	[Unknown]	vmacache_find	[Unknown]	0
+func@0x430190	0.015s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	func@0x430190	[Unknown]	0
+find_get_entries	0.015s	32,000,000	48,000,000	0.667	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	2.1 GHz	[Unknown]	find_get_entries	[Unknown]	0
+func@0x267150	0.015s	0	0	0.000	0.0%	0.0%	0.0%	0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	func@0x267150	[Unknown]	0
+move_unreachable	0.015s	80,000,000	32,000,000	2.500	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	5.3 GHz	[Unknown]	move_unreachable	gcmodule.c	0
+operator new	0.015s	64,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	4.3 GHz	[Unknown]	operator new(unsigned long)	new_op.cc	0
+set_next_entity	0.015s	48,000,000	80,000,000	0.600	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	set_next_entity	[Unknown]	0
+at::CPUGeneratorImpl::random	0.015s	0	240,000,000	0.000		0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	at::CPUGeneratorImpl::random(void)	CPUGeneratorImpl.cpp	0
+shmem_fault	0.015s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	shmem_fault	[Unknown]	0
+_Py_XDECREF	0.015s	0	16,000,000	0.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	_Py_XDECREF	object.h	0
+__next_zones_zonelist	0.015s	48,000,000	128,000,000	0.375	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	__next_zones_zonelist	[Unknown]	0
+func@0x16c2b0	0.015s	32,000,000	0		0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	2.1 GHz	[Unknown]	func@0x16c2b0	[Unknown]	0
+call_function_interrupt	0.015s	16,000,000	16,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.1 GHz	[Unknown]	call_function_interrupt	[Unknown]	0
+clear_subpage	0.015s	64,000,000	32,000,000	2.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		4.3 GHz	[Unknown]	clear_subpage	[Unknown]	0
+PyParser_AddToken	0.010s	128,000,000	64,000,000	2.000	0.0%	86.9%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	13.1%	12.8 GHz	[Unknown]	PyParser_AddToken	parser.c	0
+untrack_dicts	0.010s	48,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	4.8 GHz	[Unknown]	untrack_dicts	gcmodule.c	0
+page_get_anon_vma	0.010s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	page_get_anon_vma	[Unknown]	0
+hrtimer_interrupt	0.010s	32,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	hrtimer_interrupt	[Unknown]	0
+PySlice_New	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	PySlice_New	sliceobject.c	0
+PyDict_SetItem	0.010s	0	32,000,000	0.000		0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	PyDict_SetItem	dictobject.c	0
+_Py_XINCREF	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	_Py_XINCREF	object.h	0
+func@0x21da90	0.010s	32,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	func@0x21da90	[Unknown]	0
+flush_tlb_func_remote	0.010s	48,000,000	16,000,000	3.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	4.8 GHz	[Unknown]	flush_tlb_func_remote	[Unknown]	0
+PySlice_AdjustIndices	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	PySlice_AdjustIndices	sliceobject.c	0
+llist_reverse_order	0.010s	48,000,000	0					0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		4.8 GHz	[Unknown]	llist_reverse_order	[Unknown]	0
+unicode_expandtabs_impl	0.010s	0	48,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	unicode_expandtabs_impl	unicodeobject.c	0
+page_cache_free_page.isra.0	0.010s	0	16,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	page_cache_free_page.isra.0	[Unknown]	0
+intel_pstate_update_util	0.010s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	intel_pstate_update_util	[Unknown]	0
+func@0x4f3a30	0.010s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	func@0x4f3a30	[Unknown]	0
+func@0x42fbe0	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	func@0x42fbe0	[Unknown]	0
+__perf_event_task_sched_out	0.010s	64,000,000	32,000,000	2.000	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	6.4 GHz	[Unknown]	__perf_event_task_sched_out	[Unknown]	0
+nfs3_have_delegation	0.010s	16,000,000	32,000,000	0.500	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		1.6 GHz	[Unknown]	nfs3_have_delegation	[Unknown]	0
+func@0x11d6b0	0.010s	16,000,000	16,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	func@0x11d6b0	[Unknown]	0
+sched_clock	0.010s	32,000,000	0		100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	sched_clock	[Unknown]	0
+std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release	0.010s	48,000,000	48,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	100.0%	4.8 GHz	[Unknown]	std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release(void)	shared_ptr_base.h	0
+func@0x3fdc40	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	func@0x3fdc40	[Unknown]	0
+reuse_swap_page	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	reuse_swap_page	[Unknown]	0
+PyObject_SetAttr	0.010s	0	0	0.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	PyObject_SetAttr	object.c	0
+func@0x320870	0.010s	64,000,000	0					0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		6.4 GHz	[Unknown]	func@0x320870	[Unknown]	0
+func@0x40f950	0.010s	48,000,000	0		0.0%	0.0%	100.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	4.8 GHz	[Unknown]	func@0x40f950	[Unknown]	0
+func@0x3adea0	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	func@0x3adea0	[Unknown]	0
+task_numa_work	0.010s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	task_numa_work	[Unknown]	0
+func@0x36ab10	0.010s	0	16,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	func@0x36ab10	[Unknown]	0
+msort_with_tmp	0.010s	16,000,000	16,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	msort_with_tmp	msort.c	0
+__enqueue_entity	0.010s	48,000,000	48,000,000	1.000	83.3%	0.0%	72.9%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	4.8 GHz	[Unknown]	__enqueue_entity	[Unknown]	0
+func@0x47fd60	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	func@0x47fd60	[Unknown]	0
+func@0x4729a0	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	func@0x4729a0	[Unknown]	0
+migrate_page_move_mapping	0.010s	16,000,000	16,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	migrate_page_move_mapping	[Unknown]	0
+ktime_get	0.010s	32,000,000	16,000,000	2.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		3.2 GHz	[Unknown]	ktime_get	[Unknown]	0
+func@0x24dfd0	0.010s	64,000,000	16,000,000	4.000	0.0%	0.0%	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	6.4 GHz	[Unknown]	func@0x24dfd0	[Unknown]	0
+do_anonymous_page	0.010s	16,000,000	32,000,000	0.500	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	1.6 GHz	[Unknown]	do_anonymous_page	[Unknown]	0
+method_get	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	method_get	descrobject.c	0
+jbd2_journal_grab_journal_head	0.010s	16,000,000	0					0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		1.6 GHz	[Unknown]	jbd2_journal_grab_journal_head	[Unknown]	0
+unicode_dealloc	0.010s	32,000,000	32,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	unicode_dealloc	unicodeobject.c	0
+caffe2::TypeMeta::itemsize	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	caffe2::TypeMeta::itemsize(void) const	typeid.h	0
+func@0x2a38b0	0.010s	16,000,000	64,000,000	0.250	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	func@0x2a38b0	[Unknown]	0
+std::__atomic_base<unsigned long>::fetch_add	0.010s	32,000,000	16,000,000	2.000	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	3.2 GHz	[Unknown]	std::__atomic_base<unsigned long>::fetch_add(unsigned long, std::memory_order)	atomic_base.h	0
+gc_get_refs	0.010s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	gc_get_refs	gcmodule.c	0
+c10::intrusive_ptr<c10::TensorImpl, c10::UndefinedTensorImpl>::retain_	0.010s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	c10::intrusive_ptr<c10::TensorImpl, c10::UndefinedTensorImpl>::retain_(void)	intrusive_ptr.h	0
+PyObject_GetIter	0.010s	0	48,000,000	0.000	0.0%	0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	PyObject_GetIter	abstract.c	0
+_copy_characters	0.010s	0	48,000,000	0.000	0.0%			0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	_copy_characters	unicodeobject.c	0
+at::native::getCudnnHandle	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	at::native::getCudnnHandle(void)	Handle.cpp	0
+update_vsyscall	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	update_vsyscall	[Unknown]	0
+ext4_mpage_readpages	0.010s	0	0	0.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	ext4_mpage_readpages	[Unknown]	0
+update_get_addr	0.010s	0	48,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	update_get_addr	dl-tls.c	0
+update_one_slot	0.010s	32,000,000	16,000,000	2.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	update_one_slot	typeobject.c	0
+memcpy_erms	0.010s	32,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	memcpy_erms	[Unknown]	0
+resolve_slotdups	0.010s	16,000,000	96,000,000	0.167	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	resolve_slotdups	typeobject.c	0
+func@0xc1d0	0.010s	64,000,000	112,000,000	0.571	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	6.4 GHz	[Unknown]	func@0xc1d0	[Unknown]	0
+kthread_blkcg	0.010s	0	0	0.000	0.0%	0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	kthread_blkcg	[Unknown]	0
+tupledealloc	0.010s	32,000,000	64,000,000	0.500	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	tupledealloc	tupleobject.c	0
+lru_cache_add_active_or_unevictable	0.010s	0	96,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	lru_cache_add_active_or_unevictable	[Unknown]	0
+PyObject_RichCompare	0.010s	16,000,000	64,000,000	0.250	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	PyObject_RichCompare	object.c	0
+unmap_vmas	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	unmap_vmas	[Unknown]	0
+func@0x4811f0	0.010s	0	32,000,000	0.000	0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	func@0x4811f0	[Unknown]	0
+_PyObject_Vectorcall	0.010s	0	64,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	_PyObject_Vectorcall	abstract.h	0
+_dl_lookup_symbol_x	0.010s	64,000,000	32,000,000	2.000	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	6.4 GHz	[Unknown]	_dl_lookup_symbol_x	dl-lookup.c	0
+func@0x227c20	0.010s	48,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	4.8 GHz	[Unknown]	func@0x227c20	[Unknown]	0
+native_iret	0.010s	0	0	0.000	0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	native_iret	[Unknown]	0
+_contig_to_contig	0.010s	0	64,000,000	0.000				0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	_contig_to_contig	[Unknown]	0
+func@0x158550	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	func@0x158550	[Unknown]	0
+PyObject_IsInstance	0.010s	0	16,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	PyObject_IsInstance	abstract.c	0
+unicode_hash	0.010s	0	32,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	unicode_hash	unicodeobject.c	0
+npyiter_copy_to_buffers	0.010s	0	32,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	npyiter_copy_to_buffers	[Unknown]	0
+npyiter_goto_iterindex	0.010s	0	16,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	npyiter_goto_iterindex	[Unknown]	0
+PyCFunction_NewEx	0.010s	0	0	0.000	0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	PyCFunction_NewEx	methodobject.c	0
+free_unref_page	0.010s	0	16,000,000	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	free_unref_page	[Unknown]	0
+_PyObject_GC_TRACK_impl	0.010s	48,000,000	32,000,000	1.500	0.0%	0.0%	100.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	4.8 GHz	[Unknown]	_PyObject_GC_TRACK_impl	pycore_object.h	0
+array_dealloc	0.010s	0	16,000,000	0.000	0.0%		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%		0.0 MHz	[Unknown]	array_dealloc	[Unknown]	0
+c10::cuda::CUDACachingAllocator::Native::forceUncachedAllocator	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	c10::cuda::CUDACachingAllocator::Native::forceUncachedAllocator(void)	CUDACachingAllocator.cpp	0
+c10::cuda::CUDAStream::stream	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	c10::cuda::CUDAStream::stream(void) const	CUDAStream.cpp	0
+_PyObject_LookupAttr	0.010s	16,000,000	16,000,000	1.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	_PyObject_LookupAttr	object.c	0
+set_page_dirty	0.010s	16,000,000	32,000,000	0.500	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	set_page_dirty	[Unknown]	0
+tupletraverse	0.010s	32,000,000	16,000,000	2.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	3.2 GHz	[Unknown]	tupletraverse	tupleobject.c	0
+_PyObject_Realloc	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	_PyObject_Realloc	obmalloc.c	0
+flush_tlb_func_common.constprop.0	0.010s	16,000,000	0		0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	1.6 GHz	[Unknown]	flush_tlb_func_common.constprop.0	[Unknown]	0
+func@0x493510	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	func@0x493510	[Unknown]	0
+get_free_block	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	get_free_block	CUDACachingAllocator.cpp	0
+PyLong_AsSsize_t	0.010s	0	0	0.000	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	0.0%	100.0%	0.0 MHz	[Unknown]	PyLong_AsSsize_t	longobject.c	0

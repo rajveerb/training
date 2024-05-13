@@ -1,0 +1,2 @@
+config,Cast,GaussianNoise,LoadImage,RandBalancedCrop,RandFlip,RandomBrightnessAugmentation
+8,0.363379098,1.0854712830000002,12.101996013,15.306178628,0.738834868,0.13208604499999999

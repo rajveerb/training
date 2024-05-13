@@ -1,0 +1,12 @@
+Function,CPU Time,CPU Time:Effective Time,CPU Time:Spin Time,CPU Time:Overhead Time,Module,Function (Full),Source File,Start Address
+__pyx_fuse_2__pyx_f_9_ni_label_fused_write_line,0.168433,0.168433,0.0,0.0,_ni_label.cpython-38-x86_64-linux-gnu.so,__pyx_fuse_2__pyx_f_9_ni_label_fused_write_line,[Unknown],0xbbb0
+NI_FindObjects,0.139979,0.139979,0.0,0.0,_nd_image.cpython-38-x86_64-linux-gnu.so,NI_FindObjects,[Unknown],0xf570
+__pyx_fuse_2__pyx_f_9_ni_label_fused_read_line,0.099820,0.099820,0.0,0.0,_ni_label.cpython-38-x86_64-linux-gnu.so,__pyx_fuse_2__pyx_f_9_ni_label_fused_read_line,[Unknown],0xb930
+__pyx_pw_9_ni_label_7_label,0.063768,0.063768,0.0,0.0,_ni_label.cpython-38-x86_64-linux-gnu.so,__pyx_pw_9_ni_label_7_label,[Unknown],0x32ba0
+__pyx_f_9_ni_label_label_line_with_neighbor,0.039975,0.039975,0.0,0.0,_ni_label.cpython-38-x86_64-linux-gnu.so,__pyx_f_9_ni_label_label_line_with_neighbor,[Unknown],0xe760
+UBYTE_equal_AVX2,0.028000,0.028000,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,UBYTE_equal_AVX2,[Unknown],0xc2620
+__pyx_fuse_4__pyx_f_9_ni_label_fused_nonzero_line,0.027977,0.027977,0.0,0.0,_ni_label.cpython-38-x86_64-linux-gnu.so,__pyx_fuse_4__pyx_f_9_ni_label_fused_nonzero_line,[Unknown],0xb790
+UBYTE_greater_AVX2,0.026309,0.026309,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,UBYTE_greater_AVX2,[Unknown],0xc0700
+INT_maximum_AVX2,0.020017,0.020017,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,INT_maximum_AVX2,[Unknown],0xa9eb0
+array_boolean_subscript,0.011997,0.011997,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,array_boolean_subscript,[Unknown],0x2792e0
+count_nonzero_u8,0.008018,0.008018,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,count_nonzero_u8,[Unknown],0x22cb30

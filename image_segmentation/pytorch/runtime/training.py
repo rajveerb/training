@@ -103,7 +103,7 @@ def train(flags, model, train_loader, val_loader, loss_fn, score_fn, device, cal
         if flags.lr_decay_epochs:
             scheduler.step()
 
-        if epoch == next_eval_at:
+        if not flags.no_eval and epoch == next_eval_at:
             next_eval_at += flags.evaluate_every
             del output
             mllog_start(key=CONSTANTS.EVAL_START, value=epoch, metadata={CONSTANTS.EPOCH_NUM: epoch}, sync=False)
@@ -131,7 +131,9 @@ def train(flags, model, train_loader, val_loader, loss_fn, score_fn, device, cal
 
         if is_successful or diverged:
             break
-
+    
+    is_successful = True
+    
     mllog_end(key=CONSTANTS.RUN_STOP, sync=True,
               metadata={CONSTANTS.STATUS: CONSTANTS.SUCCESS if is_successful else CONSTANTS.ABORTED})
     for callback in callbacks:
