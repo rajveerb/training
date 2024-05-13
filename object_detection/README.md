@@ -11,7 +11,15 @@ mkdir -p mlperf
 cd mlperf
 git clone https://github.com/rajveerb/training.git
 ```
-2. Assumes CUDA 11.3, CuDNN 8 and Docker is installed with nvidia support (run `sudo bash cuda_11-3_installer.sh`)
+2. Assumes CUDA 11.3, CuDNN 8 and Docker is installed with nvidia support:
+
+    - Run
+        ```bash
+        sudo bash cuda_11-3_installer.sh
+        ```
+    - Make sure your `PATH` env variable has `/usr/local/cuda-11.3/bin` included
+    - Make sure your `LD_LIBRARY_PATH` env variable has `/usr/local/cuda-11.3/lib64` included
+
 
 3. Build the docker image for the object detection task
 ```
