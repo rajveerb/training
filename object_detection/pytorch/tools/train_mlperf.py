@@ -168,6 +168,9 @@ def train(cfg, local_rank, distributed, random_number_generator):
         start_iter=arguments["iteration"],
         random_number_generator=random_number_generator
     )
+    print("*********************")
+    print(f"iters_per_epoch: {iters_per_epoch}")
+    print("*********************")
     log_event(key=constants.TRAIN_SAMPLES, value=len(data_loader))
 
     checkpoint_period = cfg.SOLVER.CHECKPOINT_PERIOD
@@ -197,6 +200,7 @@ def train(cfg, local_rank, distributed, random_number_generator):
         device,
         checkpoint_period,
         arguments,
+        iters_per_epoch,
         per_iter_start_callback_fn=functools.partial(mlperf_log_epoch_start, iters_per_epoch=iters_per_epoch),
         per_iter_end_callback_fn=per_iter_callback_fn,
     )

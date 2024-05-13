@@ -62,6 +62,7 @@ def do_train(
     device,
     checkpoint_period,
     arguments,
+    iters_per_epoch,
     per_iter_start_callback_fn=None,
     per_iter_end_callback_fn=None,
 ):
@@ -127,6 +128,10 @@ def do_train(
                     memory=torch.cuda.max_memory_allocated() / 1024.0 / 1024.0,
                 )
             )
+        # break after an epoch
+        if iteration == iters_per_epoch:
+            break
+
         if iteration % checkpoint_period == 0 and arguments["save_checkpoints"]:
             checkpointer.save("model_{:07d}".format(iteration), **arguments)
         if iteration == max_iter and arguments["save_checkpoints"]:
