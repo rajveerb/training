@@ -1,0 +1,11 @@
+Function,CPU Time,CPU Time:Effective Time,CPU Time:Spin Time,CPU Time:Overhead Time,Module,Function (Full),Source File,Start Address
+legacy_gauss,0.732345,0.732345,0.0,0.0,mtrand.cpython-38-x86_64-linux-gnu.so,legacy_gauss,[Unknown],0x54eb0
+__pyx_f_5numpy_6random_8_mt19937_mt19937_double,0.403309,0.403309,0.0,0.0,_mt19937.cpython-38-x86_64-linux-gnu.so,__pyx_f_5numpy_6random_8_mt19937_mt19937_double,[Unknown],0x6f80
+__ieee754_log_fma,0.387390,0.387390,0.0,0.0,libm.so.6,__ieee754_log_fma,e_log.c,0x80fa0
+__pyx_f_5numpy_6random_7_common_cont,0.240687,0.240687,0.0,0.0,_common.cpython-38-x86_64-linux-gnu.so,__pyx_f_5numpy_6random_7_common_cont,[Unknown],0x397f0
+_aligned_contig_cast_double_to_float,0.198008,0.198008,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,_aligned_contig_cast_double_to_float,[Unknown],0x258360
+FLOAT_add_AVX2,0.139996,0.139996,0.0,0.0,_multiarray_umath.cpython-38-x86_64-linux-gnu.so,FLOAT_add_AVX2,[Unknown],0x967d0
+mt19937_gen,0.106320,0.106320,0.0,0.0,_mt19937.cpython-38-x86_64-linux-gnu.so,mt19937_gen,[Unknown],0x12840
+legacy_normal,0.105938,0.105938,0.0,0.0,mtrand.cpython-38-x86_64-linux-gnu.so,legacy_normal,[Unknown],0x55670
+func@0xc1d0,0.023999,0.023999,0.0,0.0,mtrand.cpython-38-x86_64-linux-gnu.so,func@0xc1d0,[Unknown],0xc1d0
+__log_compat,0.012000,0.012000,0.0,0.0,libm.so.6,__log_compat,w_log_compat.c,0x10360

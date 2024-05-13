@@ -144,7 +144,20 @@ if __name__ == '__main__':
     if args.mode == "preprocess":
         preprocessor = Preprocessor(args)
         preprocessor.preprocess_dataset()
-        verify_dataset(args.results_dir)
+        """
+        # Call to verify_dataset causes below error.
+        # Moreover, this issue has been documented in below GitHub issues of MLPerf/training repository:
+        1. https://github.com/mlcommons/training/issues/689
+        2. https://github.com/mlcommons/training/issues/617
+        3. https://github.com/mlcommons/training/issues/545 
+        Traceback (most recent call last):
+        File "preprocess_dataset.py", line 147, in <module>
+            verify_dataset(args.results_dir)
+        File "preprocess_dataset.py", line 132, in verify_dataset
+            assert md5_hash == source[volume], f"Invalid hash for {volume}."
+        AssertionError: Invalid hash for case_00130_x.npy.
+        """
+        # verify_dataset(args.results_dir)
 
     if args.mode == "verify":
         verify_dataset(args.results_dir)

@@ -2,3 +2,11 @@
 	path = recommendation/dlrm
 	url = https://github.com/facebookresearch/dlrm.git
         branch = mlperf
+[submodule "image_segmentation/kits19"]
+	path = image_segmentation/kits19
+	url = https://github.com/neheller/kits19
+	branch = master
+[submodule "image_segmentation/itt-python"]
+	path = image_segmentation/itt-python
+	url = git@github.com:rajveerb/itt-python.git
+	branch = master

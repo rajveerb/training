@@ -1,0 +1,79 @@
+{
+    "op_to_func": {
+        "Cast": [
+            "munmap|libc.so.6",
+            "__memmove_avx_unaligned_erms|libc.so.6"
+        ],
+        "LoadImage": [
+            "__GI__IO_fread|libc.so.6",
+            "method_vectorcall_NOARGS|python3.8"
+        ],
+        "RandFlip": [
+            "_PyDict_LoadGlobal|python3.8",
+            "_contig_to_contig|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "_aligned_strided_to_contig_size1|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "[Outside any known module]|[Unknown]",
+            "_aligned_strided_to_contig_size4|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "<listcomp>|numeric.py",
+            "raw_array_assign_array|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "munmap|libc.so.6",
+            "__memmove_avx_unaligned_erms|libc.so.6"
+        ],
+        "GaussianNoise": [
+            "__log_compat|libm.so.6",
+            "__vfprintf|libc-dynamic.so",
+            "__pyx_f_5numpy_6random_7_common_cont|_common.cpython-38-x86_64-linux-gnu.so",
+            "FLOAT_add_AVX2|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "legacy_normal|mtrand.cpython-38-x86_64-linux-gnu.so",
+            "_aligned_contig_cast_double_to_float|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "__pyx_f_5numpy_6random_8_mt19937_mt19937_double|_mt19937.cpython-38-x86_64-linux-gnu.so",
+            "func@0xc1d0|mtrand.cpython-38-x86_64-linux-gnu.so",
+            "munmap|libc.so.6",
+            "legacy_gauss|mtrand.cpython-38-x86_64-linux-gnu.so",
+            "mt19937_gen|_mt19937.cpython-38-x86_64-linux-gnu.so",
+            "__ieee754_log_fma|libm.so.6"
+        ],
+        "RandBalancedCrop": [
+            "__pyx_fuse_2__pyx_f_9_ni_label_fused_read_line|_ni_label.cpython-38-x86_64-linux-gnu.so",
+            "UBYTE_greater_AVX2|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "__pyx_f_9_ni_label_label_line_with_neighbor|_ni_label.cpython-38-x86_64-linux-gnu.so",
+            "array_boolean_subscript|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "PyContextVar_Get|python3.8",
+            "__pyx_pw_9_ni_label_7_label|_ni_label.cpython-38-x86_64-linux-gnu.so",
+            "__memset_avx2_unaligned_erms|libc.so.6",
+            "count_nonzero_u8|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "__pyx_fuse_2__pyx_f_9_ni_label_fused_write_line|_ni_label.cpython-38-x86_64-linux-gnu.so",
+            "__memmove_avx_unaligned_erms|libc.so.6",
+            "INT_maximum_AVX2|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "NI_FindObjects|_nd_image.cpython-38-x86_64-linux-gnu.so",
+            "UBYTE_equal_AVX2|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "__pyx_fuse_4__pyx_f_9_ni_label_fused_nonzero_line|_ni_label.cpython-38-x86_64-linux-gnu.so"
+        ],
+        "RandomBrightnessAugmentation": [
+            "generic_wrapped_legacy_loop|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "_aligned_contig_cast_float_to_double|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "npyiter_copy_to_buffers|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "_aligned_contig_cast_double_to_float|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "DOUBLE_multiply_AVX2|_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+            "munmap|libc.so.6",
+            "npyiter_buffered_iternext|_multiarray_umath.cpython-38-x86_64-linux-gnu.so"
+        ]
+    },
+    "common_funcs_to_op": {
+        "munmap|libc.so.6": [
+            "Cast",
+            "RandFlip",
+            "GaussianNoise",
+            "RandomBrightnessAugmentation"
+        ],
+        "__memmove_avx_unaligned_erms|libc.so.6": [
+            "Cast",
+            "RandFlip",
+            "RandBalancedCrop"
+        ],
+        "_aligned_contig_cast_double_to_float|_multiarray_umath.cpython-38-x86_64-linux-gnu.so": [
+            "GaussianNoise",
+            "RandomBrightnessAugmentation"
+        ]
+    }
+}
