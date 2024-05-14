@@ -44,14 +44,14 @@ conda activate instrumentation_env
 conda info | grep "active environment"
 
 cd /workspace/object_detection/pytorch
-python setup.py clean build develop --user
+python setup.py clean install --user
 # Check if maskrcnn is installed
 pip list | grep "maskrcnn-benchmark"
 
 cd /workspace/object_detection
-./run_and_time.sh
+bash metal_run_and_time.sh # for no logs
+bash metal_run_and_time.sh <LOG_PATH> # for logs
 ```
-
 # 3. Dataset/Environment
 ### Publication/Attribution
 Microsoft COCO: Common Objects in Context
