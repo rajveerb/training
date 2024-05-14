@@ -29,7 +29,7 @@ cd ..
 # Build torchvision v0.2.2
 git clone  --depth 1 https://github.com/rajveerb/vision.git -b v0.2.2_extended rajveerb_vision 
 cd ./rajveerb_vision
-python setup.py install
+python setup.py develop
 #  Check if torchvision installed
 pip list
 cd ..
