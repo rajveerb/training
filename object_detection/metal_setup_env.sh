@@ -41,3 +41,6 @@ pip install --no-cache-dir https://github.com/mlperf/logging/archive/9ea0afa.zip
 # check custom_build.log if torch, torchvision and maskrcnn-benchmark installed correctly
 pip list | grep "torch" | grep "1.10" >> custom_build.log
 pip list | grep "torchvision" | grep "0.2.2" >> custom_build.log
+
+# Below allows the user to get debug info for P3Map
+sudo apt install -y libjpeg8-dbg
