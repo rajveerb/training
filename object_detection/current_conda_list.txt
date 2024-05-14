@@ -1,0 +1,87 @@
+# packages in environment at /proj/prismgt-PG0/anaconda3/envs/obj_det_env:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+astunparse                1.6.3                      py_0  
+blas                      1.0                         mkl  
+brotli-python             1.0.9            py38h6a678d5_8  
+bzip2                     1.0.8                h5eee18b_6  
+c-ares                    1.19.1               h5eee18b_0  
+ca-certificates           2024.3.11            h06a4308_0  
+certifi                   2024.2.2         py38h06a4308_0  
+cffi                      1.16.0           py38h5eee18b_1  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+cmake                     3.26.4               h96355d8_0  
+contourpy                 1.1.1                    pypi_0    pypi
+cycler                    0.12.1                   pypi_0    pypi
+cython                    0.29.5                   pypi_0    pypi
+dataclasses               0.8                pyh6d0b6a4_7  
+expat                     2.6.2                h6a678d5_0  
+fonttools                 4.51.0                   pypi_0    pypi
+future                    0.18.3           py38h06a4308_0  
+idna                      3.7              py38h06a4308_0  
+importlib-resources       6.4.0                    pypi_0    pypi
+intel-openmp              2023.1.0         hdb19cb5_46306  
+itt                       0.0.4                    pypi_0    pypi
+kiwisolver                1.4.5                    pypi_0    pypi
+krb5                      1.20.1               h143b758_1  
+ld_impl_linux-64          2.38                 h1181459_1  
+libcurl                   8.7.1                h251f7ec_0  
+libedit                   3.1.20230828         h5eee18b_0  
+libev                     4.33                 h7f8727e_1  
+libffi                    3.4.4                h6a678d5_1  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libnghttp2                1.57.0               h2d74bed_0  
+libssh2                   1.11.0               h251f7ec_0  
+libstdcxx-ng              11.2.0               h1234567_1  
+libuv                     1.44.2               h5eee18b_0  
+lz4-c                     1.9.4                h6a678d5_1  
+magma-cuda110             2.5.2                         1    pytorch
+maskrcnn-benchmark        0.1                      pypi_0    pypi
+matplotlib                3.7.5                    pypi_0    pypi
+mkl                       2023.1.0         h213fc3f_46344  
+mkl-include               2023.1.0         h06a4308_46344  
+mkl-service               2.4.0            py38h5eee18b_1  
+mkl_fft                   1.3.8            py38h5eee18b_0  
+mkl_random                1.2.4            py38hdb19cb5_0  
+mlperf-compliance         0.0.10                   pypi_0    pypi
+mlperf-logging            0.0.0                    pypi_0    pypi
+ncurses                   6.4                  h6a678d5_0  
+ninja                     1.11.1.1                 pypi_0    pypi
+ninja-base                1.10.2               hd09550d_5  
+numpy                     1.23.0                   pypi_0    pypi
+opencv-python             4.1.2.30                 pypi_0    pypi
+openssl                   3.0.13               h7f8727e_1  
+packaging                 24.0                     pypi_0    pypi
+pillow                    8.4.0                    pypi_0    pypi
+pip                       24.0             py38h06a4308_0  
+psutil                    5.9.8                    pypi_0    pypi
+pycocotools               2.0.7                    pypi_0    pypi
+pycparser                 2.21               pyhd3eb1b0_0  
+pyparsing                 3.1.2                    pypi_0    pypi
+pysocks                   1.7.1            py38h06a4308_0  
+python                    3.8.19               h955ad1f_0  
+python-dateutil           2.9.0.post0              pypi_0    pypi
+pyyaml                    6.0.1            py38h5eee18b_0  
+readline                  8.2                  h5eee18b_0  
+requests                  2.31.0           py38h06a4308_1  
+rhash                     1.4.3                hdbd6064_0  
+setuptools                59.5.0                   pypi_0    pypi
+six                       1.16.0             pyhd3eb1b0_1  
+sqlite                    3.45.3               h5eee18b_0  
+tbb                       2021.8.0             hdb19cb5_0  
+tk                        8.6.14               h39e8969_0  
+torch                     1.10.0a0+git2d28b28          pypi_0    pypi
+torchvision               0.2.2                     dev_0    <develop>
+tqdm                      4.19.9                   pypi_0    pypi
+typing_extensions         4.11.0           py38h06a4308_0  
+urllib3                   2.2.1            py38h06a4308_0  
+wheel                     0.43.0           py38h06a4308_0  
+xz                        5.4.6                h5eee18b_1  
+yacs                      0.1.8                    pypi_0    pypi
+yaml                      0.2.5                h7b6447c_0  
+zipp                      3.18.1                   pypi_0    pypi
+zlib                      1.2.13               h5eee18b_1  
+zstd                      1.5.5                hc292b87_2  

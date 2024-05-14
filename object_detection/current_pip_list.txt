@@ -1,0 +1,47 @@
+Package             Version             Editable project location
+------------------- ------------------- -------------------------------------------------------------------------------------
+astunparse          1.6.3
+Brotli              1.0.9
+certifi             2024.2.2
+cffi                1.16.0
+charset-normalizer  2.0.4
+contourpy           1.1.1
+cycler              0.12.1
+Cython              0.29.5
+fonttools           4.51.0
+future              0.18.3
+idna                3.7
+importlib_resources 6.4.0
+itt                 0.0.4
+kiwisolver          1.4.5
+maskrcnn-benchmark  0.1
+matplotlib          3.7.5
+mkl-fft             1.3.8
+mkl-random          1.2.4
+mkl-service         2.4.0
+mlperf-compliance   0.0.10
+mlperf-logging      0.0.0
+ninja               1.11.1.1
+numpy               1.23.0
+opencv-python       4.1.2.30
+packaging           24.0
+Pillow              8.4.0
+pip                 24.0
+psutil              5.9.8
+pycocotools         2.0.7
+pycparser           2.21
+pyparsing           3.1.2
+PySocks             1.7.1
+python-dateutil     2.9.0.post0
+PyYAML              6.0.1
+requests            2.31.0
+setuptools          59.5.0
+six                 1.16.0
+torch               1.10.0a0+git2d28b28
+torchvision         0.2.2               /mydata/rbachkaniwala3/code/rajveerb_mlperf-training/object_detection/rajveerb_vision
+tqdm                4.19.9
+typing_extensions   4.11.0
+urllib3             2.2.1
+wheel               0.43.0
+yacs                0.1.8
+zipp                3.18.1
