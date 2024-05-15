@@ -1,4 +1,4 @@
 Function,CPU Time,CPU Time:Effective Time,CPU Time:Spin Time,CPU Time:Overhead Time,Module,Function (Full),Source File,Start Address
-ImagingResampleHorizontal_8bpc,1.911650,1.911650,0.0,0.0,_imaging.cpython-38-x86_64-linux-gnu.so,ImagingResampleHorizontal_8bpc,[Unknown],0x23d00
-ImagingResampleVertical_8bpc,0.077999,0.077999,0.0,0.0,_imaging.cpython-38-x86_64-linux-gnu.so,ImagingResampleVertical_8bpc,[Unknown],0x242e0
+ImagingResampleHorizontal_8bpc,1.506865,1.506865,0.0,0.0,_imaging.cpython-38-x86_64-linux-gnu.so,ImagingResampleHorizontal_8bpc,[Unknown],0x21980
+ImagingResampleVertical_8bpc,0.079993,0.079993,0.0,0.0,_imaging.cpython-38-x86_64-linux-gnu.so,ImagingResampleVertical_8bpc,[Unknown],0x21f50
 _int_free,0.010000,0.010000,0.0,0.0,libc.so.6,_int_free,malloc.c,0x96840

@@ -1,5 +1,5 @@
 Function,CPU Time,CPU Time:Effective Time,CPU Time:Spin Time,CPU Time:Overhead Time,Module,Function (Full),Source File,Start Address
-ImagingResampleHorizontal_8bpc,1.901991,1.901991,0.0,0.0,_imaging.cpython-38-x86_64-linux-gnu.so,ImagingResampleHorizontal_8bpc,[Unknown],0x23d00
-ImagingResampleVertical_8bpc,0.068000,0.068000,0.0,0.0,_imaging.cpython-38-x86_64-linux-gnu.so,ImagingResampleVertical_8bpc,[Unknown],0x242e0
-PyNumber_InPlaceMultiply,0.010000,0.010000,0.0,0.0,python3.8,PyNumber_InPlaceMultiply,abstract.c,0x467a49
+ImagingResampleHorizontal_8bpc,1.499811,1.499811,0.0,0.0,_imaging.cpython-38-x86_64-linux-gnu.so,ImagingResampleHorizontal_8bpc,[Unknown],0x21980
+ImagingResampleVertical_8bpc,0.079990,0.079990,0.0,0.0,_imaging.cpython-38-x86_64-linux-gnu.so,ImagingResampleVertical_8bpc,[Unknown],0x21f50
 _int_free,0.010000,0.010000,0.0,0.0,libc.so.6,_int_free,malloc.c,0x96840
+bilinear_filter,0.000764,0.000764,0.0,0.0,_imaging.cpython-38-x86_64-linux-gnu.so,bilinear_filter,[Unknown],0x20e60
