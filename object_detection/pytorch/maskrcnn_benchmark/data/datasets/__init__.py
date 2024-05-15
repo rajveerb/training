@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
-from .coco import COCODataset
+from .coco import COCODataset, Load
 from .voc import PascalVOCDataset
 from .concat_dataset import ConcatDataset
 
