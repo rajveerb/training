@@ -31,7 +31,7 @@ git clone  --depth 1 https://github.com/rajveerb/vision.git -b v0.2.2_extended r
 cd ./rajveerb_vision
 python setup.py develop
 #  Check if torchvision installed
-pip list
+conda list
 cd ..
 
 echo "Current directory $(pwd)"
@@ -43,5 +43,15 @@ pip list | grep "torch" | grep "1.10" >> custom_build.log
 pip list | grep "torchvision" | grep "0.2.2" >> custom_build.log
 
 # Below allows the user to get debug info for P3Map
-pip uninstall pillow
+pip uninstall -y pillow
 conda install -y pillow==8.4.0
+conda list
+
+cd pytorch
+
+echo "Current directory $(pwd)"
+python setup.py clean install --user
+# Check if maskrcnn is installed
+pip list | grep "maskrcnn-benchmark"
+cd ..
+echo "Finished!!!"
