@@ -69,7 +69,14 @@ def train(flags, model, train_loader, val_loader, loss_fn, score_fn, device, cal
 
         loss_value = None
         optimizer.zero_grad()
+        
+        cuda_event_queue = []
+        
         for iteration, batch in enumerate(tqdm(train_loader, disable=(rank != 0) or not flags.verbose)):
+
+            start_cuda_event = torch.cuda.Event(enable_timing=True)
+            end_cuda_event = torch.cuda.Event(enable_timing=True)
+            start_cuda_event.record()
             image, label = batch
             image, label = image.to(device), label.to(device)
             for callback in callbacks:
@@ -96,7 +103,8 @@ def train(flags, model, train_loader, val_loader, loss_fn, score_fn, device, cal
 
             loss_value = reduce_tensor(loss_value, world_size).detach().cpu().numpy()
             cumulative_loss.append(loss_value)
-
+            end_cuda_event.record()
+            cuda_event_queue.append((start_cuda_event, end_cuda_event))
         mllog_end(key=CONSTANTS.EPOCH_STOP, sync=False,
                   metadata={CONSTANTS.EPOCH_NUM: epoch, 'current_lr': optimizer.param_groups[0]['lr']})
 
@@ -136,5 +144,9 @@ def train(flags, model, train_loader, val_loader, loss_fn, score_fn, device, cal
     
     mllog_end(key=CONSTANTS.RUN_STOP, sync=True,
               metadata={CONSTANTS.STATUS: CONSTANTS.SUCCESS if is_successful else CONSTANTS.ABORTED})
+    
+    torch.cuda.synchronize()
+    for i,(start_cuda_event, end_cuda_event) in enumerate(cuda_event_queue):
+        print(f"Elapsed time for batch {i} in moving the data to GPU + forward and backward pass: {start_cuda_event.elapsed_time(end_cuda_event)} ms")
     for callback in callbacks:
         callback.on_fit_end()
