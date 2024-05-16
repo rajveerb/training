@@ -74,6 +74,7 @@ def do_train(
     model.train()
     start_training_time = time.time()
     end = time.time()
+    cuda_event_queue = []
 
     for iteration, (images, targets, _) in enumerate(data_loader, start_iter):
 
@@ -85,7 +86,10 @@ def do_train(
         arguments["iteration"] = iteration
 
         scheduler.step()
+        start_cuda_event = torch.cuda.Event(enable_timing=True)
+        end_cuda_event = torch.cuda.Event(enable_timing=True)
 
+        start_cuda_event.record()
         images = images.to(device)
         targets = [target.to(device) for target in targets]
 
@@ -102,6 +106,8 @@ def do_train(
 
         optimizer.step()
         optimizer.zero_grad()
+        end_cuda_event.record()
+        cuda_event_queue.append((start_cuda_event, end_cuda_event))
 
         batch_time = time.time() - end
         end = time.time()
@@ -145,7 +151,11 @@ def do_train(
             early_exit = per_iter_end_callback_fn(iteration=iteration-1)
             if early_exit:
                 break
-
+    
+    torch.cuda.synchronize()
+    for i,(start_cuda_event, end_cuda_event) in enumerate(cuda_event_queue):
+        print(f"Elapsed time for batch {i} in moving the data to GPU + forward and backward pass: {start_cuda_event.elapsed_time(end_cuda_event)} ms")
+    
     total_training_time = time.time() - start_training_time
     total_time_str = str(datetime.timedelta(seconds=total_training_time))
     logger.info(
