@@ -105,9 +105,3 @@ Once per epoch, 118k.
 
 ### Evaluation thoroughness
 Evaluate over the entire validation set. Use the official COCO API to compute mAP.
-
-
-
-/users/rajveerb/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/bin/remote-cli:/proj/prismgt-PG0/anaconda3/bin:/proj/prismgt-PG0/anaconda3/condabin:/usr/local/cuda-11.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/users/rajveerb/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/bin/remote-cli:/proj/prismgt-PG0/anaconda3/bin:/proj/prismgt-PG0/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/users/rajveerb/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/bin/remote-cli:/proj/prismgt-PG0/anaconda3/bin:/proj/prismgt-PG0/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-
-/usr/local/cuda-11.3/lib64
